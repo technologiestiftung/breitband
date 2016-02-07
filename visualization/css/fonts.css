@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'ClanOT-Medium';
+  font-weight: 400;
+  src: url("../fonts/clanot-medium-webfont.eot");
+  src: url("../fonts/clanot-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clanot-medium-webfont.woff") format("woff"), url("../fonts/clanot-medium-webfont.ttf") format("truetype"), url("../fonts/clanot-medium-webfont.svg#clanot_medium") format("svg"); }
+@font-face {
+  font-family: 'ClanOT-Book';
+  font-weight: 400;
+  src: url("../fonts/clanot-book-webfont.eot");
+  src: url("../fonts/clanot-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clanot-book-webfont.woff") format("woff"), url("../fonts/clanot-book-webfont.ttf") format("truetype"), url("../fonts/clanot-book-webfont.svg#clanot_book") format("svg"); }
+@font-face {
+  font-family: 'TSB';
+  src: url("../fonts/TSB.eot?-9pwax");
+  src: url("../fonts/TSB.eot?#iefix-9pwax") format("embedded-opentype"), url("../fonts/TSB.woff?-9pwax") format("woff"), url("../fonts/TSB.ttf?-9pwax") format("truetype"), url("../fonts/TSB.svg?-9pwax#TSB") format("svg");
+  font-weight: 400; }
+
+/*# sourceMappingURL=fonts.css.map */
