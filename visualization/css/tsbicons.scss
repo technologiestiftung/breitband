@@ -1,0 +1,80 @@
+[class^="i-"], [class*=" i-"] {
+	font-family: 'TSB';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.i-pfeil:before {
+	content: "\e600";
+}
+.i-search:before {
+	content: "\e60c";
+}
+.i-select:before {
+	content: "\e60d";
+}
+.i-download:before {
+	content: "\e601";
+}
+.i-email:before {
+	content: "\e602";
+}
+.i-email2:before {
+	content: "\e603";
+}
+.i-gallery:before {
+	content: "\e605";
+}
+.i-print:before {
+	content: "\e60b";
+}
+.i-phone:before {
+	content: "\e609";
+}
+.i-sound:before {
+	content: "\e60e";
+}
+.i-pdf:before {
+	content: "\e608";
+}
+.i-movie:before {
+	content: "\e607";
+}
+.i-play:before {
+	content: "\e60a";
+}
+.i-googleplus:before {
+	content: "\e606";
+}
+.i-twitter:before {
+	content: "\e60f";
+}
+.i-fb:before {
+	content: "\e604";
+}
+.i-youtube:before {
+	content: "\e610";
+}
+.i-share:before {
+	content: "\e611";
+}
+.i-close:before {
+	content: "\e612";
+}
+.i-pfeil_l:before {
+	content: "\e613";
+}
+.i-plus:before {
+	content: "\e614";
+}
+.i-menu:before {
+	content: "\e615";
+}
