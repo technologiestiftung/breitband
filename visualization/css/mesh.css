@@ -1,0 +1,229 @@
+@font-face {
+  font-family: 'ClanOT-Medium';
+  font-weight: 400;
+  src: url("../fonts/clanot-medium-webfont.eot");
+  src: url("../fonts/clanot-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clanot-medium-webfont.woff") format("woff"), url("../fonts/clanot-medium-webfont.ttf") format("truetype"), url("../fonts/clanot-medium-webfont.svg#clanot_medium") format("svg"); }
+@font-face {
+  font-family: 'ClanOT-Book';
+  font-weight: 400;
+  src: url("../fonts/clanot-book-webfont.eot");
+  src: url("../fonts/clanot-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/clanot-book-webfont.woff") format("woff"), url("../fonts/clanot-book-webfont.ttf") format("truetype"), url("../fonts/clanot-book-webfont.svg#clanot_book") format("svg"); }
+@font-face {
+  font-family: 'TSB';
+  src: url("../fonts/TSB.eot?-9pwax");
+  src: url("../fonts/TSB.eot?#iefix-9pwax") format("embedded-opentype"), url("../fonts/TSB.woff?-9pwax") format("woff"), url("../fonts/TSB.ttf?-9pwax") format("truetype"), url("../fonts/TSB.svg?-9pwax#TSB") format("svg");
+  font-weight: 400; }
+/*
+font-family: "ClanOT-Medium";
+font-family: "ClanOT-Book";
+*/
+body {
+  color: #fff;
+  font-family: "ClanOT-Book";
+  font-size: 12px;
+  background-color: #fff;
+  margin: 0px;
+  overflow: hidden; }
+
+#container {
+  width: 100%;
+  height: 100%; }
+
+svg {
+  font-family: "ClanOT-Book";
+  font-size: 12px;
+  position: absolute;
+  opacity: 0.5;
+  z-index: 100;
+  top: 0; }
+
+/*----- INFO -----*/
+div.red {
+  background-color: #e60032;
+  color: #fff; }
+
+.company-help {
+  background-image: url("../images/map_close.png");
+  background-size: 39px 42px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 320px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: 102; }
+
+.infobtn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #e60032;
+  color: #fff;
+  font-family: "ClanOT-Medium";
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 101; }
+
+.company-help span.image.image-interactive {
+  float: left;
+  width: 40px;
+  height: 60px;
+  background-size: 40px 60px;
+  background-image: url("../images/interactive.png");
+  display: block;
+  margin: 40px 15px 25px 20px; }
+
+.company-help span.image {
+  float: left;
+  width: 25px;
+  height: 25px;
+  background-size: 50px 25px;
+  display: block;
+  margin: -6px 10px 0 20px;
+  background-position: top right; }
+
+span.image.image-fullscreen {
+  background-image: url("../images/btn_fullscreen_open.gif"); }
+
+span.image.image-screenshot {
+  background-image: url("../images/btn_snapshot.gif"); }
+
+span.image.image-instagram {
+  background-image: url("../images/btn_instagram.gif"); }
+
+span.image.image-twitter {
+  background-image: url("../images/btn_twitter.gif"); }
+
+.company-help strong {
+  font-family: "ClanOT-Medium";
+  font-size: 16px;
+  padding: 20px 15px 10px 15px;
+  display: block;
+  font-weight: normal; }
+
+.company-help p.legend {
+  font-family: "ClanOT-Medium";
+  display: block;
+  text-align: center; }
+
+.company-help p {
+  display: block;
+  padding: 10px 15px;
+  font-style: italic; }
+
+/*----- CLOCK -----*/
+.time {
+  position: absolute;
+  display: none;
+  z-index: 100;
+  left: 50%;
+  top: 30px; }
+
+.time .clock, .time .date {
+  text-align: center;
+  width: 150px;
+  float: left;
+  clear: both;
+  margin-left: -75px; }
+
+.time .clock {
+  font-size: 30px; }
+
+.time .date {
+  font-size: 15px; }
+
+/*----- LABELS -----*/
+#labels {
+  top: 0;
+  left: 0;
+  position: absolute; }
+
+#labels span {
+  position: relative;
+  left: -50%; }
+
+#labels div {
+  position: absolute;
+  pointer-events: none;
+  white-space: nowrap;
+  color: #FFF;
+  text-shadow: 0 0 1px #000, 0 0 2px #000, 0 0 5px #000, 0 0 10px #000;
+  font-weight: bold;
+  text-shadows: -3px -3px 1px rgba(255, 255, 255, 0.4), -3px -2px 1px rgba(255, 255, 255, 0.4), -3px -1px 1px rgba(255, 255, 255, 0.4), -3px 0px 1px rgba(255, 255, 255, 0.4), -3px 1px 1px rgba(255, 255, 255, 0.4), -3px 2px 1px rgba(255, 255, 255, 0.4), -3px 3px 1px rgba(255, 255, 255, 0.4), -2px -3px 1px rgba(255, 255, 255, 0.4), -2px -2px 1px rgba(255, 255, 255, 0.4), -2px -1px 1px rgba(255, 255, 255, 0.4), -2px 0px 1px rgba(255, 255, 255, 0.4), -2px 1px 1px rgba(255, 255, 255, 0.4), -2px 2px 1px rgba(255, 255, 255, 0.4), -2px 3px 1px rgba(255, 255, 255, 0.4), -1px -3px 1px rgba(255, 255, 255, 0.4), -1px -2px 1px rgba(255, 255, 255, 0.4), -1px -1px 1px rgba(255, 255, 255, 0.4), -1px 0px 1px rgba(255, 255, 255, 0.4), -1px 1px 1px rgba(255, 255, 255, 0.4), -1px 2px 1px rgba(255, 255, 255, 0.4), -1px 3px 1px rgba(255, 255, 255, 0.4), 0px -3px 1px rgba(255, 255, 255, 0.4), 0px -2px 1px rgba(255, 255, 255, 0.4), 0px -1px 1px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(255, 255, 255, 0.4), 0px 2px 1px rgba(255, 255, 255, 0.4), 0px 3px 1px rgba(255, 255, 255, 0.4), 1px -3px 1px rgba(255, 255, 255, 0.4), 1px -2px 1px rgba(255, 255, 255, 0.4), 1px -1px 1px rgba(255, 255, 255, 0.4), 1px 0px 1px rgba(255, 255, 255, 0.4), 1px 1px 1px rgba(255, 255, 255, 0.4), 1px 2px 1px rgba(255, 255, 255, 0.4), 1px 3px 1px rgba(255, 255, 255, 0.4), 2px -3px 1px rgba(255, 255, 255, 0.4), 2px -2px 1px rgba(255, 255, 255, 0.4), 2px -1px 1px rgba(255, 255, 255, 0.4), 2px 0px 1px rgba(255, 255, 255, 0.4), 2px 1px 1px rgba(255, 255, 255, 0.4), 2px 2px 1px rgba(255, 255, 255, 0.4), 2px 3px 1px rgba(255, 255, 255, 0.4), 3px -3px 1px rgba(255, 255, 255, 0.4), 3px -2px 1px rgba(255, 255, 255, 0.4), 3px -1px 1px rgba(255, 255, 255, 0.4), 3px 0px 1px rgba(255, 255, 255, 0.4), 3px 1px 1px rgba(255, 255, 255, 0.4), 3px 2px 1px rgba(255, 255, 255, 0.4), 3px 3px 1px rgba(255, 255, 255, 0.4); }
+
+/*----- MENU -----*/
+.menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0; }
+
+.menu li {
+  list-style: none;
+  margin: 0 0 10px 0;
+  padding: 0; }
+
+.menu li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-size: 100px 50px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  cursor: pointer; }
+  .menu li a:hover {
+    background-position: top left; }
+
+.fullscreen {
+  background-image: url("../images/btn_fullscreen_open.gif"); }
+
+.fullscreen.active {
+  background-image: url("../images/btn_fullscreen_close.gif"); }
+
+.screenshot {
+  background-image: url("../images/btn_snapshot.gif");
+  margin-bottom: 40px; }
+
+.twitter {
+  background-image: url("../images/btn_twitter.gif"); }
+
+.instagram {
+  background-image: url("../images/btn_instagram.gif"); }
+
+.menu li a.twitter, .menu li a.instagram {
+  background-position: top left; }
+  .menu li a.twitter:hover, .menu li a.twitter.active, .menu li a.instagram:hover, .menu li a.instagram.active {
+    background-position: top right; }
+
+/*----- RETINA IMAGES -----*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .fullscreen {
+    background-image: url("../images/btn_fullscreen_open@2x.gif"); }
+
+  .fullscreen.active {
+    background-image: url("../images/btn_fullscreen_close@2x.gif"); }
+
+  .screenshot {
+    background-image: url("../images/btn_snapshot@2x.gif"); }
+
+  .twitter {
+    background-image: url("../images/btn_twitter@2x.gif"); }
+
+  .instagram {
+    background-image: url("../images/btn_instagram@2x.gif"); }
+
+  .company-help span.image.image-interactive {
+    background-image: url("../images/interactive@2x.png"); }
+
+  .company-help {
+    background-image: url("../images/map_close@2x.png"); } }
+
+/*# sourceMappingURL=mesh.css.map */
