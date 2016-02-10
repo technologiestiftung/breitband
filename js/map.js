@@ -25,6 +25,16 @@ function stateMap(){
 		statemap.resize();
 	};
 
+	statemap.toggleInfo = function(){
+		if(infostate){
+			$('.leaflet-info-btn').removeClass('leaflet-info-btn-active');
+			infostate = false;
+		}else{
+			$('.leaflet-info-btn').addClass('leaflet-info-btn-active');
+			infostate = true;
+		}
+	};
+
 	statemap.build = function(){
 		map = new L.Map('map', {
 			center: new L.LatLng(52.5047, 13.4244), 
@@ -68,8 +78,7 @@ function stateMap(){
 
 				container.onclick = function(){
 					if(infostate){
-						map.removeControl(info);					
-						infostate = false;
+						statemap.toggleInfo();
 					}
 					if(!brainToggle) {
 						map.removeLayer(brainLayer);
@@ -91,12 +100,11 @@ function stateMap(){
 			},
 
 			onAdd: function (map) {
-				var container = L.DomUtil.create('div', 'leaflet-info-btn leaflet-bar leaflet-control leaflet-control-custom');
-				container.innerHTML = '<div id="map_info" class="red company-help"><strong>Berlin im Detail</strong><p><span class="image image-interactive"></span>Erkunden Sie die Berliner Breitbandlandschaft oder nutzen Sie den Button oben rechts um sich das BRAIN-Netz anzeigen zu lassen.</p></div>';
+				var container = L.DomUtil.create('div', 'leaflet-info-btn leaflet-info-btn-active leaflet-bar leaflet-control leaflet-control-custom');
+				container.innerHTML = '<div class="infobtn">?</div><div id="map_info" class="red company-help"><strong>Berlin im Detail</strong><p><span class="image image-interactive"></span>Erkunden Sie die Berliner Breitbandlandschaft oder nutzen Sie den Button oben rechts um sich das BRAIN-Netz anzeigen zu lassen.</p></div>';
 
 				container.onclick = function(){
-					map.removeControl(info);
-					infostate = false;				
+					statemap.toggleInfo();
 				};
 
 				return container;
@@ -163,7 +171,9 @@ function stateMap(){
 			[2,42,33],
 			[2,24,20],
 			[2,50,36],
-			[2,24,10]
+			[2,24,10],
+			[2,24,6],
+			[2,41,19]
 		];
 
 		d3.csv('data/brain.csv', function(err, data){

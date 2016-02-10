@@ -324,7 +324,7 @@ h3{
 	content: "\25BC";
 	position: relative;
 	text-align: center;
-	bottom:-10px;
+	bottom:-11px;
 	left:50%;
 }
 
@@ -1097,8 +1097,6 @@ ul.legend span span{
 	clear:both;
 	background-color:rgba(255,255,255,1);
 	color:#555;
-	padding:70px 0 0 0;
-	margin-top:70px;
 }
 
 #sponsors{
@@ -1106,6 +1104,7 @@ ul.legend span span{
 }
 
 #footer .grey{
+	padding-top:70px;
 	background-color:#646464;
 	padding-bottom:80px;
 	padding-top:30px;
@@ -1142,23 +1141,28 @@ ul.legend span span{
 	}
 }
 
-#footer ul.logolist,
-#footer ul.logolist li{
+#close{
+	padding-top:20px;
+}
+
+#close ul.logolist,
+#close ul.logolist li{
 	list-style:none;
 	padding:0;
 	margin:0;
 } 
 
-#footer ul.logolist{
+#close ul.logolist{
 	padding-top:40px;
 }
 
-#footer ul.logolist li{
+#close ul.logolist li{
 	float:left;
 	margin-right:40px;
 }
 
-#footer .small{
+#footer .small,
+#close .small{
 	display:block;
 	clear:both;
 	max-width:500px;
@@ -1403,6 +1407,29 @@ ul.legend span span{
 	margin-bottom:50px !important;
 }
 
+.infobtn{
+	display:block;
+	width: 50px;
+	height: 50px;
+	background-color: #e60032;
+	color: #fff;
+	font-family: "ClanOT-Medium";
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#map .leaflet-right.leaflet-bottom .leaflet-info-btn-active.leaflet-info-btn.leaflet-control .infobtn,
+#map .leaflet-right.leaflet-bottom .leaflet-info-btn.leaflet-control #map_info{
+	display:none;
+}
+
+#map .leaflet-right.leaflet-bottom .leaflet-info-btn.leaflet-control .infobtn,
+#map .leaflet-right.leaflet-bottom .leaflet-info-btn-active.leaflet-info-btn.leaflet-control #map_info{
+	display:block;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -1494,6 +1521,10 @@ ul.legend span span{
 
 #background{
 	padding:70px 0;
+	h4{
+		padding-top:0;
+		margin-top:0;
+	}
 }
 
 #background .subrow{
@@ -1516,6 +1547,10 @@ ul.legend span span{
 
 .company-help p.ismobile{
 	display:none;
+}
+
+#perspektive{
+	height:570px;
 }
 
 #threeD{
@@ -1557,7 +1592,7 @@ ul.legend span span{
 #end{
 	background-color:#000;
 	color:#ccc;
-	padding:20px 0 30px 0;
+	padding:30px 0 30px 0;
 	line-height:20px;
 }
 

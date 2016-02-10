@@ -1,8 +1,11 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta charset='UTF-8'/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset='UTF-8' />
+		<title>Breitbandausbau Berlin</title>
 		<!-- jQuery -->
 		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 		<!--[if lt IE 10]>
@@ -13,19 +16,19 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<script src="js/bootstrap.min.js"></script>
 		<!-- D3 -->
-		<script src="js/d3.v3.min.js" charset="utf-8"></script>
-		<script src="js/topojson.v1.min.js"></script>
+		<script type="text/javascript" src="js/d3.v3.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/topojson.v1.min.js"></script>
 		<!-- SIDR -->
 		<script src="js/jquery.sidr.min.js"></script>
 		<!-- Mapbox -->
 		<link rel="stylesheet" href="css/leaflet.css" />
-		<script src="js/leaflet.js"></script>
-		<script src="http://maps.google.com/maps/api/js?v=3.2&sensor=false&key=AIzaSyCAyMD9WlqCuPFHKI9T7tpDl2DU7VZ9LA0"></script>
-		<script src="js/min/Google-min.js"></script>
-		<script src="js/min/Leaflet.Sleep-min.js"></script>
+		<script type="text/javascript" src="js/leaflet.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.2&sensor=false&key=AIzaSyCAyMD9WlqCuPFHKI9T7tpDl2DU7VZ9LA0"></script>
+		<script type="text/javascript" src="js/min/Google-min.js"></script>
+		<script type="text/javascript" src="js/min/Leaflet.Sleep-min.js"></script>
 		<!-- Breitband CSS -->
 		<link rel='stylesheet' href='css/main.css' type='text/css' />
-		<title>Breitbandausbau Berlin</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 	</head>
 	<body>
 
@@ -107,7 +110,7 @@
 		<section id="bezirke">
 			<div id="compare">
 				<div class="container">
-					<div class="row" class="chart">
+					<div class="row">
 						<div class="col col-xs-12 col-sm-4 col-lg-4">
 							<div class="red company-help pulse-help">
 								<strong>Bezirke im Detail</strong>
@@ -166,14 +169,14 @@
 
 		</section>
 
-		<section id="puls"></section>
+		<section id="puls">
 			<div id="pulse" class="white">
 				<div class="container">
 					<div class="row">
 						<div class="col col-xs-12 col-sm-5 col-lg-4">
 							<h3><span class="image image-pulse"></span>Puls der Stadt</h3>
 							<p>
-								In Berlin pulsiert das digitale Leben. Die Visualisierung zeigt die Social Media-Nutzung der letzten 24 Stunden und den Datenverkehr am Berliner Internetknoten CIX. In den Abendstunden steigt der Traffic durch die Nutzung datenintensiver Angebote wie etwa Videostreaming.
+								In Berlin pulsiert das digitale Leben. Die Visualisierung zeigt die Social Media-Nutzung der letzten 24 Stunden und den Datenverkehr am Berliner Internetknoten BCIX. In den Abendstunden steigt der Traffic durch die Nutzung datenintensiver Angebote wie etwa Videostreaming.
 							</p>
 							<div class="blue company-help pulse-help">
 								<strong>24h Berlin</strong>
@@ -194,10 +197,10 @@
 										<div></div> Instagram Aktivität
 									</li>
 									<li id="legend_cix">
-										<div></div> Aktivität am Internetknoten CIX-Berlin
+										<div></div> Aktivität am Internetknoten BCIX-Berlin
 									</li>
 								</ul>
-								<div class="data"><span class="small">Quelle: CIX, Twitter, Instagram, TÜV, BMVI<br /><a href="#">Erfahren Sie mehr über die Daten hinter der Visualisierung &raquo;</a></span></div>
+								<div class="data"><span class="small">Quelle: BCIX, Twitter, Instagram, TÜV, BMVI<br /><a href="#daten">Erfahren Sie mehr über die Daten hinter der Visualisierung &raquo;</a></span></div>
 							</div>
 							<div id="small-legend">
 								<p><strong>Anteil der Haushalte<br />mit 50Mbit/s Breitband</strong></p>
@@ -324,7 +327,7 @@
 							<div id="satellite-container">
 								<span class="image  image-satellite satellite-icn"></span>
 								<div class="satellite-text">
-									<h3>Satelliten Internet</h3>
+									<h3>Satelliten-Internet</h3>
 									<p>Neben kabelgebundenen und mobilen Breitbandanbindungen gibt es mittlerweile auch eine Reihe von Anbietern, die satellitengestütztes Internet in Berliner Haushalte bringen.</p>
 								</div>
 								<div id="satellite-logos">
@@ -360,7 +363,7 @@
 		<section id="perspektive">
 			<div id="threeD">
 				<div id="hasGL">
-					<iframe src="" id="meshframe" allowfullscreen></iframe>
+					<iframe id="meshframe" allowfullscreen></iframe>
 				</div>
 				<div id="noGL">
 					<div class="company-help red">
@@ -374,25 +377,12 @@
 
 		<section id="kontakt">
 			<div id="footer">
-				<div class="container" id="sponsors">
-					<div class="row">
-						<div class="col col-xs-12">
-							<ul class="logolist">
-								<li><a href="#" title="be Berlin"><span class="image image-beberlin"></span></a></li>
-								<li><a href="#" title="Europäische Union"><span class="image image-eu"></span></a></li>
-								<li><a href="#" title="EFRE"><span class="image image-efre"></span></a></li>
-								<li><a href="#" title="Investitionsbank Berlin"><span class="image image-invest"></span></a></li>
-							</ul>
-							<span class="small">Gefördert aus Mitteln des Landes Berlin und der Investitionsbank Berlin, kofinanziert von der Europäischen Union - Europäischer Fonds für Regionale Entwicklung. Investition in Ihre Zukunft.</span>
-						</div>
-					</div>
-				</div>
 				<div class="grey">
 					<div class="container">
 						<div class="row">
 							<div class="col col-xs-12 col-sm-6 col-lg-4">
 								<span class="small">Ein Projekt der Technologiestiftung Berlin</span>
-								<a href="https://www.technologiestiftung-berlin.de/de/startseite/" title="Technologiestiftung Berlin"><span class="image image-tsb"></span></a>
+								<a href="https://www.technologiestiftung-berlin.de/de/startseite/" target="_blank" title="Technologiestiftung Berlin"><span class="image image-tsb"></span></a>
 							</div>
 							<div class="col col-xs-12 col-sm-6 col-lg-5 middle-col">
 								<span class="small">Kontakt</span>
@@ -403,9 +393,9 @@
 							</div>
 							<div class="col col-xs-12 col-sm-12 col-lg-3 scnd-col">
 								<span class="small">Design &amp; Produktion</span>
-								<a href="http://www.vislab.io" title="VISLAB"><span class="image image-vislab"></span></a>
-								<a href="http://www.vislab.io">Sebastian Meier — VISLAB.io</a><br /><br />
-								<a href="http://www.chrispie.com" title="Christopher Pietsch"><span class="image image-chrispie"></span></a><a href="http://www.chrispie.com" title="Christopher Pietsch">Christopher Pietsch</a>
+								<a href="http://www.vislab.io" target="_blank" title="VISLAB"><span class="image image-vislab"></span></a>
+								<a href="http://www.vislab.io" target="_blank">Sebastian Meier — VISLAB.io</a><br /><br />
+								<a href="http://www.chrispie.com" target="_blank" title="Christopher Pietsch"><span class="image image-chrispie"></span></a><a href="http://www.chrispie.com" target="_blank" title="Christopher Pietsch">Christopher Pietsch</a>
 							</div>
 						</div>
 					</div>
@@ -433,12 +423,12 @@
 						<div class="col col-xs-12 col-sm-6 col-md-7">
 							<h4>Datenquellen</h4>
 							<p>
-								Ausgangspunkt des Projekts war die Veröffentlichung von Daten zum Breitbandausbau der Berliner Senatsverwaltung für Wirtschaft, Technologie und Forschung. Für die Aufschlüsselung auf Häuserblockebene nutzen wir zusätzlich Daten aus dem Breitbandatlas, der im Auftrag des Bundesministeriums für Verkehr und digitale Infrastruktur vom TÜV Rheinland erstellt wurde. Die Daten zum Berliner Gebäudebestand stammen aus dem FIS-Broker. Da die von der Senatsverwaltung veröffentlichten PDF-Dokumente nicht maschinenlesbar waren, haben wir sie entsprechend überarbeitet. Die aufbereiteten Daten stellen wir über ein Github-Repo zur Verfügung.
+								Ausgangspunkt des Projekts war die Veröffentlichung einer Detailauswertung zum Breitbandausbau der Berliner Senatsverwaltung für Wirtschaft, Technologie und Forschung. Die Datengrundlage bildet der Breitbandatlas, der im Auftrag des Bundesministeriums für Verkehr und digitale Infrastruktur vom TÜV Rheinland erstellt wurde. Die Daten zum Berliner Gebäudebestand stammen aus dem FIS-Broker. Da die von der Senatsverwaltung veröffentlichten PDF-Dokumente nicht maschinenlesbar waren, haben wir sie entsprechend überarbeitet. Die aufbereiteten Daten stellen wir über ein Github-Repo zur Verfügung.
 							</p>
 							<ul>
-								<li><a target="_blank" href="http://www.zukunft-breitband.de/">Breitbandatlas &raquo;</a></li>
-								<li><a target="_blank" href="">TÜV Rheinland &raquo;</a></li>
-								<li><a target="_blank" href="">FIS-Broker &raquo;</a></li>
+								<li><a href="http://www.zukunft-breitband.de/" target="_blank">Breitbandatlas &raquo;</a></li>
+								<li><a href="http://www.tuv.com/de/deutschland/home.jsp" target="_blank">TÜV Rheinland &raquo;</a></li>
+								<li><a href="http://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/" target="_blank">FIS-Broker &raquo;</a></li>
 							</ul>
 						</div>
 					</div>
@@ -453,13 +443,12 @@
 								Das Berliner Wissenschaftsnetz BRAIN verbindet Wissenschafts-, Kultur- und Bildungseinrichtungen über ein landeseigenes Hochgeschwindigkeitsnetz. Neben Echtzeitinformationen zum Status des Netzwerks stellt BRAIN auch einen groben Netzwerkplan der angeschlossenen Institutionen zur Verfügung. Im Rahmen des Projektes haben wir diesen Plan georeferenziert. Diese aufbereiteten Daten sind ebenfalls im Github-Repo enthalten.
 							</p>
 							<ul>
-								<li><a target="_blank" href="">BRAIN-Kernnetz &raquo;</a></li>
+								<li><a target="_blank" href="https://www.brain.de/home/view">BRAIN-Kernnetz &raquo;</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="row subrow">
 						<div class="col cols-xs-12 col-sm-5 col-md-4">
-							<img src="images/data_map.png" alt="Berlin" />
 							<img src="images/data_social.png" alt="Twitter und Instagram" />
 						</div>
 						<div class="col hidden-xs col-sm-1"></div>
@@ -469,9 +458,9 @@
 								Zur Darstellung der Social Media-Nutzung in Berlin nutzen wir die frei zugänglichen APIs von Twitter und Instagram. Da über die APIs nur relative Werte ermittelt werden können, geben wir keine genauen Zahlen der Tweets und Bilder an, sondern lediglich Trends. Aus Datenschutzgründen speichern wir keine detaillierten Informationen, sondern generieren nur ein grobes Mapping der geteilten Tweets und Bilder. Aufgrund der Nutzungsbestimmungen der Unternehmen können wir die Rohdaten hier nicht veröffentlichen. Als weitere Referenz für den Nutzungstrend errechneten wir die durchschnittliche Nutzung des Internetknotenpunktes BCIX. BCIX stellt sowohl Echtzeit- als auch historische Daten für den Standort Berlin zur Verfügung.
 							</p>
 							<ul>
-								<li><a target="_blank" href="">Twitter API &raquo;</a></li>
-								<li><a target="_blank" href="">Instagram API &raquo;</a></li>
-								<li><a target="_blank" href="">BCIX &raquo;</a></li>
+								<li><a target="_blank" href="https://dev.twitter.com/">Twitter API &raquo;</a></li>
+								<li><a target="_blank" href="https://www.instagram.com/developer/">Instagram API &raquo;</a></li>
+								<li><a target="_blank" href="http://www.bcix.de/bcix/">BCIX &raquo;</a></li>
 							</ul>
 						</div>
 					</div>
@@ -486,9 +475,9 @@
 								Die Technologiestiftung Berlin setzt sich für Open Data und Open Source ein. Dahinter steht der Gedanke, durch das Bereitstellen von Daten oder Software Innovationen zu fördern. Mit den Visualisierungen auf dieser Seite wollen wir zeigen, dass aus offenen Daten spannende Projekte und neue Einsichten entstehen können. In diesem Sinne stellen wir nicht nur die von uns genutzten Datensätze (soweit möglich), sondern auch den Code der hinter den Visualisierungen steckt, zur freien Weiternutzung zur Verfügung. Fühlen Sie sich inspiriert, ein eigenes Projekt damit zu entwickeln!
 							</p>
 							<ul>
-								<li><a target="_blank" href="">TSB Github Repo &raquo;</a></li>
-								<li><a target="_blank" href="">Open Data Berlin &raquo;</a></li>
-								<li><a target="_blank" href="">Artikel: Open Data in der Praxis &raquo;</a></li>
+								<li><a target="_blank" href="https://github.com/technologiestiftung/breitband">TSB Github Repo &raquo;</a></li>
+								<li><a target="_blank" href="http://daten.berlin.de/">Open Data Berlin &raquo;</a></li>
+								<li><a target="_blank" href="https://www.technologiestiftung-berlin.de/opendatapraxis">Artikel: Open Data in der Praxis &raquo;</a></li>
 							</ul>
 						</div>
 					</div>
@@ -500,7 +489,22 @@
 			<div class="container">
 				<div class="row">
 					<div class="col col-xs-12 col-sm-6 left">&copy; Technologiestiftung Berlin 2016</div>
-					<div class="col col-xs-12 col-sm-6 right"><a href="https://www.technologiestiftung-berlin.de/de/stiftung/kontakt-anfahrt/">Kontakt</a>&nbsp;|&nbsp;<a href="https://www.technologiestiftung-berlin.de/de/impressum">Impressum</a>&nbsp;|&nbsp;<a href="https://www.technologiestiftung-berlin.de/de/datenschutz/">Datenschutz</a></div>
+					<div class="col col-xs-12 col-sm-6 right"><a href="https://www.technologiestiftung-berlin.de/de/stiftung/kontakt-anfahrt/" target="_blank">Kontakt</a>&nbsp;|&nbsp;<a href="https://www.technologiestiftung-berlin.de/de/impressum" target="_blank">Impressum</a>&nbsp;|&nbsp;<a href="https://www.technologiestiftung-berlin.de/de/datenschutz/" target="_blank">Datenschutz</a></div>
+				</div>
+			</div>
+		</div>
+		<div id="close">
+			<div class="container" id="sponsors">
+				<div class="row">
+					<div class="col col-xs-12">
+						<ul class="logolist">
+							<li><a href="http://www.be.berlin.de/" target="_blank" title="be Berlin"><span class="image image-beberlin"></span></a></li>
+							<li><a href="#" target="_blank" title="Europäische Union"><span class="image image-eu"></span></a></li>
+							<li><a href="http://www.efre.brandenburg.de/" target="_blank" title="EFRE"><span class="image image-efre"></span></a></li>
+							<li><a href="http://www.ibb.de/Foerderangebote.aspx" target="_blank" title="Investitionsbank Berlin"><span class="image image-invest"></span></a></li>
+						</ul>
+						<span class="small">Gefördert aus Mitteln des Landes Berlin und der Investitionsbank Berlin, kofinanziert von der Europäischen Union - Europäischer Fonds für Regionale Entwicklung. Investition in Ihre Zukunft.</span>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -526,17 +530,16 @@
 		</div>
 
 		<!-- Breitband Scripts -->
-		<script src="js/min/jquery.easing-min.js"></script>
-		<script src='js/min/main-min.js'></script>
-		<script src='js/min/main-min.js'></script>
-		<script src='js/min/d3.tooltip-min.js'></script>
-		<script src='js/min/d3.minimap-min.js'></script>
-		<script src='js/min/map-min.js'></script>
-		<script src='js/min/d3.pulse-min.js'></script>
-		<script src='js/min/d3.company-min.js'></script>
-		<script src='js/min/d3.compare-min.js'></script>
-		<script src='js/min/d3.technologie-min.js'></script>
-		<script src="js/three/Detector.js"></script>
+		<script type="text/javascript" src="js/min/jquery.easing-min.js"></script>
+		<script type="text/javascript" src='js/min/main-min.js'></script>
+		<script type="text/javascript" src='js/min/d3.tooltip-min.js'></script>
+		<script type="text/javascript" src='js/min/d3.minimap-min.js'></script>
+		<script type="text/javascript" src='js/min/map-min.js'></script>
+		<script type="text/javascript" src='js/min/d3.pulse-min.js'></script>
+		<script type="text/javascript" src='js/min/d3.company-min.js'></script>
+		<script type="text/javascript" src='js/min/d3.compare-min.js'></script>
+		<script type="text/javascript" src='js/min/d3.technologie-min.js'></script>
+		<script type="text/javascript" src="js/three/Detector.js"></script>
 		<script type="text/javascript">
 			var minimap, tooltip, company, pulse, compare, technologie, map, threeactive = false;
 
@@ -576,6 +579,7 @@
 					if(!isMobile){
 						$('#hasGL iframe').attr('src', 'mesh.html');
 						threeactive = true;
+						setMesh();
 					}else{
 						d3.select("#hasGL").remove();
 						d3.select(".nowebgl").style("display", "none");
@@ -596,15 +600,7 @@
 
 				$(window).scroll(debouncer(function(e){
 					if(threeactive){
-						var o = $('#meshframe').offset();
-						var iframeY = o.top;
-						var windowHeight = window.innerHeight;
-						var st = $(window).scrollTop();
-						if((st+windowHeight)>iframeY && st<iframeY){
-							document.getElementById("meshframe").contentWindow.threed.play();
-						}else{
-							document.getElementById("meshframe").contentWindow.threed.pause();
-						}
+						setMesh();
 					}
 				}));
 			});

@@ -233,11 +233,9 @@ function d3_pulse(){
 							requestAnimationFrame(pulse.iterate);
 							pulse.stateUpdate();
 						}else{
-							hour = a;
-							if(!state){
-								requestAnimationFrame(pulse.iterate);
-							}
 							state = false;
+							hour = a;
+							requestAnimationFrame(pulse.iterate);
 							pulse.stateUpdate();
 						}
 					}else if(!state){
@@ -386,6 +384,8 @@ function d3_pulse(){
 	};
 
 	pulse.iterate = function(){
+		if(hour === 24){ hour = 0; }
+
 		d3.selectAll('.animationLayer').style('display', 'none');
 		d3.select('#animationLayer_'+hour).style('display', 'block');
 
@@ -395,11 +395,12 @@ function d3_pulse(){
 		var mh1 = hour-2; if(mh1<0){mh1 += 24;}
 		var mh2 = hour-3; if(mh2<0){mh2 += 24;}
 		var mh3 = hour-4; if(mh3<0){mh3 += 24;}
+		var mh = hour-1; if(mh<0){mh += 24;}
 
+		d3.select('path.bg-'+(mh)).style('opacity', 0.3);
 		d3.select('path.bg-'+(mh1)).style('opacity', 0.2);
 		d3.select('path.bg-'+(mh2)).style('opacity', 0.1);
 		d3.select('path.bg-'+(mh3)).style('opacity', 0.05);
-		d3.select('path.bg-'+(hour-1)).style('opacity', 0.3);
 
 		d3.select('.timetext').text(hour);
 		
