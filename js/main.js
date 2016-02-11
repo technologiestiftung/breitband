@@ -1,4 +1,4 @@
-/*global d3:false,iframeY:true,windowHeight:true */
+/*global d3:false,iframeY:true,threeactive:true,windowHeight:true */
 /*jshint unused:false*/
 var colorPalletes = {
 	red:[
@@ -36,7 +36,7 @@ function debouncer( func , timeout ) {
 
 function setMesh(){
 	if(threeactive){
-		if(typeof document.getElementById("meshframe").contentWindow.threed != "undefined"){
+		if(typeof document.getElementById("meshframe").contentWindow.threed !== "undefined"){
 			var o = $('#meshframe').offset();
 			var iframeY = o.top;
 			var windowHeight = window.innerHeight;
@@ -70,6 +70,7 @@ $(function() {
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
+		$.sidr('close','sidr');
     });
 });
 

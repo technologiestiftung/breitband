@@ -1,5 +1,9 @@
-body{
+body, html{
 	font-family: 'ClanOT-Book';
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 /*
@@ -85,11 +89,11 @@ div.white{
 	border-color: rgb(30,55,145) transparent transparent transparent;
 }
 
-h2{
+h1{
 	font-family: "ClanOT-Medium";
 	font-weight:normal;
 	margin: 0 0 0.3em 0;
-	font-size: 2.5em;
+	font-size: 2em;
 	line-height: 1.2em;
 }
 
@@ -102,7 +106,8 @@ h3{
 	margin-top:100px;
 }
 
-.storer-box h2{
+.storer-box h2,
+.storer-box h1{
 	margin:20px;
 }
 
@@ -511,6 +516,7 @@ path.trendarea.instagram{
 }
 
 #companies-vis{
+	margin-top:70px;
 	width:100%;
 	height:800px;
 }
@@ -1048,6 +1054,8 @@ ul.legend span span{
 #map-intro .middle-col,
 #map-intro .scnd-col{
 	text-align: right;
+	padding-right:20px;
+	max-width:240px;
 }
 
 .image-brain{
@@ -1060,18 +1068,14 @@ ul.legend span span{
 	background-image:url('../images/brain.png');
 }
 
-#map-intro .middle-col{
-	padding-right: 0;
-}
-
 #map-intro .middle-col ul{
 	display: block;
 	width:100%;
-	min-height:80px;
+	min-height:88px;
 	background-repeat: no-repeat;
 	padding-right:45px;
 	background-position: top right;
-	background-size:38px 76px;
+	background-size:38px 88px;
 	background-image:url('../images/network_legend.gif');
 }
 
@@ -1089,6 +1093,16 @@ ul.legend span span{
 
 #map-intro{
 	padding:50px 0;
+}
+
+/* Hiding the loading tiles */
+
+.leaflet-layer .leaflet-tile-container{
+	display:none;
+}
+
+.leaflet-layer .leaflet-tile-container:last-child{
+	display:block;
 }
 
 /*-------- Footer --------*/
@@ -1135,6 +1149,8 @@ ul.legend span span{
 	}
 	a{
 		color:#fff;
+		clear:left;
+	    display: block;
 	}
 	span.image{
 		margin:0 5px 5px 0;
@@ -1200,10 +1216,13 @@ ul.legend span span{
 }
 
 .image-tsb{
+	max-width:100%;
 	width:323px;
 	height:94px;
-	background-size:323px 94px;
+	background-size:100% auto;
 	background-image:url('../images/tsb.png');
+	background-repeat:no-repeat;
+	background-position:top left;
 }
 
 .image-vislab{
@@ -1214,11 +1233,11 @@ ul.legend span span{
 }
 
 .image-chrispie{
-	width:43px;
-	height:37px;
+	width:83px;
+	height:27px;
 	float:left;
-	background-size:43px 37px;
-	background-image:url('../images/chrispie.png');
+	background-size:83px 27px;
+	background-image:url('../images/CRSP.png');
 }
 
 /*---------- Bootstrap modifications ----------*/
@@ -1345,7 +1364,7 @@ ul.legend span span{
 	}
 
 	.image-chrispie{
-		background-image:url('../images/chrispie@2x.png');
+		background-image:url('../images/CRSP@2x.png');
 	}
 
 	#pulse h3 span.image{
@@ -1437,7 +1456,12 @@ ul.legend span span{
 /* Carousel base class */
 .carousel {
 	margin-top:20px;
-	height: 400px;
+	height: 450px;
+}
+
+.carousel .item {
+	height: 450px;
+	background-color:#f5f5f5;
 }
 
 .carousel-indicators .active{
@@ -1489,12 +1513,6 @@ ul.legend span span{
 	font-family: "ClanOT-Medium";
 	font-weight:normal;
 	font-size:18px;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-	height: 400px;
-	background-color:#f5f5f5;
 }
 
 .carousel-control.right,
@@ -1622,6 +1640,19 @@ ul.legend span span{
 }
 
 @media (min-width: 515px) {
+	.carousel {
+		height: 400px;
+	}
+
+	.carousel .item {
+		height: 400px;
+		background-color:#f5f5f5;
+	}
+
+	h1{
+		font-size: 2.5em;
+	}
+
 	.carousel-caption {
 		padding-bottom:60px;
 	}
@@ -1636,6 +1667,12 @@ ul.legend span span{
 }
 
 @media (min-width: 768px) {
+	#map-intro .middle-col,
+	#map-intro .scnd-col{
+		text-align: right;
+		padding-right:0;
+	}
+
 	.carousel {
 		height: 350px;
 	}
@@ -1693,6 +1730,10 @@ ul.legend span span{
 
 	.sidrMenu{
 		text-align:left;
+	}
+
+	#companies-vis{
+		margin-top:0;
 	}
 
 }

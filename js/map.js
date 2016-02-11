@@ -13,7 +13,7 @@ function stateMap(){
 		}
 
 		if(window.innerHeight/2<600){
-			$('#map_container').css('height', (window.innerHeight/2)+'px');
+			$('#map_container').css('height', (window.innerHeight*0.65)+'px');
 		}else{
 			$('#map_container').css('height', '600px');	
 		}
@@ -48,6 +48,8 @@ function stateMap(){
 			)
 		}).on('click', function() { 
 			map.scrollWheelZoom.enable();
+		}).on('zoomstart', function(){
+			$('.leaflet-google-layer:last').css('opacity',0);
 		});
 
 		var speedmap = new L.TileLayer('http://tiles.sebastianmeier.eu/v2/tiles/fullimage/{z}/{x}/{y}.png').addTo(map);
@@ -61,6 +63,13 @@ function stateMap(){
 		});
 
 		map.addLayer(streets);
+
+		streets.on('load', function(){
+			console.log("load");
+			window.setTimeout(function(){
+				$('.leaflet-google-layer:last').css('opacity',1);
+			}, 1000);
+		});
 
 		var satellite = new L.Google('SATELLITE', {});
 		map.addLayer(satellite);
