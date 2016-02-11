@@ -8,16 +8,11 @@ function threeD(){
 	d3.select('.company-help').on('click',function(){ d3.select('.company-help').style('display','none'); });
 	d3.select('.infobtn').on('click',function(){ d3.select('.company-help').style('display','block'); });
 
-	d3.select(".fullscreen")
-		.on("click", function(d){
-			screenfull.toggle();
-			d3.select(this).classed("active", screenfull.isFullscreen);
-		})
-		.style("display", function(){ return screenfull.enabled; });
-
 	d3.select(".instagram")
 		.on("click", function(d){
 			state.instagram = !state.instagram;
+			if(state.twitter){state.twitter = false;}
+			d3.select('.twitter').classed("active", false);
 			d3.select(this).classed("active", state.instagram);
 			threed.updateSocialStatus();
 		});
@@ -25,6 +20,8 @@ function threeD(){
 	d3.select(".twitter")
 		.on("click", function(d){
 			state.twitter = !state.twitter;
+			if(state.instagram){state.instagram = false;}
+			d3.select('.instagram').classed("active", false);
 			d3.select(this).classed("active", state.twitter);
 			threed.updateSocialStatus();
 		});
@@ -33,14 +30,6 @@ function threeD(){
 		.on("click", function(d){
 			makeScreenshot = true;
 		});
-
-	// d3.select("body").on("contextmenu", function(data, index) {
-	//  	makeScreenshot = true;
-	//  	d3.event.preventDefault();
-	// });
-
-	var makeScreenshot = false;
-	var clockDiv = d3.select(".time .clock");
 
 	threed.updateSocialStatus = function(){
 		if(!state.twitter && !state.instagram){
@@ -52,7 +41,6 @@ function threeD(){
 	};
 
 	threed.resize = function(){
-		console.log("resize")
 		var bb = d3.select('#container').node().getBoundingClientRect();
 
 		width = bb.width;
@@ -64,20 +52,30 @@ function threeD(){
 	};
 
 	threed.play = function(){
-		console.log("play");
-		state.play = true;
-		animate();
+		if(!state.play){
+			state.play = true;
+			animate();
+		}
 	};
 
 	threed.pause = function(){
-		console.log("pause");
 		state.play = false;
 	};
+
+	d3.select(".fullscreen")
+		.on("click", function(d){
+			screenfull.toggle();
+			threed.play();
+			d3.select(this).classed("active", screenfull.isFullscreen);
+		})
+		.style("display", function(){ return screenfull.enabled; });
 
 	var bb = d3.select('#container').node().getBoundingClientRect(),
 		width = bb.width,
 		height = bb.height;
 
+	var makeScreenshot = false;
+	var clockDiv = d3.select(".time .clock");
 	var container = document.getElementById( 'container' );
 
 	var renderer = new THREE.WebGLRenderer( {antialias:true, preserveDrawingBuffer: false } );
@@ -94,9 +92,15 @@ function threeD(){
 	scene.add(scene2);
 	scene2.add(scene3);
 
+	var today = new Date(),
+		yesterday = new Date();
+	yesterday.setDate(today.getDate() - 1);
+
+	d3.select('.date').text(((yesterday.getDate()<10) ? "0" : "")+yesterday.getDate()+"."+((yesterday.getMonth()<10) ? "0" : "")+yesterday.getMonth()+"."+yesterday.getFullYear());
+
 
 	scene.add( new THREE.HemisphereLight( 0xffffff, 0x1E3791 ) );
-
+	var loaded = false;
 	var light = new THREE.DirectionalLight( 0xffffff, 1 );
 	light.position.set( 1, 100, 300);
 	scene.add( light );
@@ -140,13 +144,13 @@ function threeD(){
 			if(!state.active){ raycast(); }
 		});
 
-	var state = { play: false, active: null, twitter: false, instagram: false };
+	var state = { fullscreen:false, play: false, active: null, twitter: false, instagram: false };
 
 	var parseDate = d3.time.format("%Y-%m-%d").parse;
 
 	var z = d3.scale.linear().range([1,50]).domain([0, 5]);
+	var zSocialTweets, zSocialInstagram;
 	var zSocial = d3.scale.log().range([1,200]).domain([1,50]);
-	var colorSocial = d3.scale.log().range(["#fff","#ddd"]).domain([1,200]);
 
 	var centerCoord = [13.413215, 52.521918];
 	var projection = d3.geo.mercator()
@@ -164,10 +168,10 @@ function threeD(){
 	var mouse = new THREE.Vector2();
 	var INTERSECTED;
 
-	var dataAll;
+	var dataAll, dataMin = [];
 
 	d3.csv('data/50mbit.csv', function(err, data){
-		d3.csv('data/dataNEW.csv', function(err, social){
+		d3.csv('http://tsb.sebastianmeier.eu/static/data.csv', function(err, social){
 			dataLoaded(data, social);
 		});
 	});
@@ -192,6 +196,7 @@ function threeD(){
 			// d.social = d3.range(24).map(function(d){ return { instagram: 0, twitter: 0}});
 			d.social = [];
 			d.cube = null;
+			d.cube2 = null;
 
 			if(!xymap[d.xx]){ xymap[d.xx]=[]; }
 			xymap[d.xx][d.yy] = d;
@@ -211,6 +216,21 @@ function threeD(){
 
 			dd.social[d.hour] = { twitter: d.twitter, instagram: d.instagram };
 		});
+
+		data.forEach(function(d,i){
+			var hasSocial = false;
+			d.social.forEach(function(d,i){
+				if(d.twitter > 0 || d.instagram > 0){
+					hasSocial = true;
+				}
+			});
+			if(hasSocial){
+				dataMin.push(d);	
+			}
+		});
+
+		zSocialTweets = d3.scale.linear().range([100,300]).domain([0,d3.max(social, function(d){ return d.twitter; })]);
+		zSocialInstagram = d3.scale.linear().range([100,300]).domain([0,d3.max(social, function(d){ return d.instagram; })]);
 
 		var dataBezirke = d3.nest()
 			.key(function(d){ return d.bezirk; })
@@ -285,6 +305,7 @@ function threeD(){
 		// animate();
 		render();
 		
+		loaded = true;
 	}
 
 	var objects = [];
@@ -364,7 +385,7 @@ function threeD(){
 
 	function animate( time ) {
 
-		if(state.play){
+		if(state.play || screenfull.isFullscreen){
 			requestAnimationFrame( animate );
 			TWEEN.update();
 			render(time);
@@ -376,7 +397,7 @@ function threeD(){
 	var hour = 0;
 
 	function toggleSocial(){
-		dataAll.forEach(function(d){
+		dataMin.forEach(function(d){
 			if(d.cube){
 				if(state.instagram){
 					d.cube.visible = true;
@@ -395,9 +416,10 @@ function threeD(){
 	}
 
 	function render(time) {
+		if(!loaded){ return; }
+
 		// console.log("render")
 
-		// TWEEN.update();
 		scene2.rotation.z += 0.001;
 
 		update_labels(objects);
@@ -421,6 +443,7 @@ function threeD(){
 		}
 
 	}
+
 	var clockSpeed = 400;
 	function updateSocial(time){
 		var now = parseInt(time/clockSpeed) % 24;
@@ -433,15 +456,17 @@ function threeD(){
 	function updateSocialBars(hour){
 		clockDiv.text((hour < 10 ? "0"+hour : hour) + ":00");
 
-		dataAll.forEach(function(d){
+		dataMin.forEach(function(d){
 			var social = d.social[hour];
 			var zInstagram = 0.2;
 			var zTwitter = 0.2;
 			var diff = (socialHoverPos-d.z);
 
 			if(social){
-				if(state.instagram){ zInstagram = diff + zSocial(social.instagram); }
-				if(state.twitter){ zTwitter = diff + zSocial(social.twitter); }
+				// if(state.instagram){ zInstagram = diff + zSocial(social.instagram); }
+				// if(state.twitter){ zTwitter = diff + zSocial(social.twitter); }
+				if(state.instagram){ zInstagram = diff + zSocialInstagram(social.instagram); }
+				if(state.twitter){ zTwitter = diff + zSocialTweets(social.twitter); }
 			}
 
 			if(d.cube){ d.cube.animateZ = zInstagram; }
@@ -451,7 +476,7 @@ function threeD(){
 
 	var animationSpeed = 0.05;
 	function animateSocial(){
-		dataAll.forEach(function(d){
+		dataMin.forEach(function(d){
 			if(d.cube){
 				// d.cube.scale.z += (d.cube.animateZ - d.cube.scale.z)*0.1;
 				d.cube.position.z += (d.z -10 + d.cube.animateZ - d.cube.position.z) * animationSpeed;
@@ -471,23 +496,18 @@ function threeD(){
 			var pos = toScreenXY( objects[i] );
 			
 			objects[i].domlabel.style.display = 'block';
-			objects[i].domlabel.style.transform = "translate("+pos.x+"px,"+pos.y+"px)"
+			objects[i].domlabel.style.transform = "translate("+pos.x+"px,"+pos.y+"px)";
 		}
 	}
 
 	function toScreenXY(mesh){
 
-	    var v = new THREE.Vector3().setFromMatrixPosition( mesh.matrixWorld ).project(camera)
+	    var v = new THREE.Vector3().setFromMatrixPosition( mesh.matrixWorld ).project(camera);
 
 	    var left = (v.x + 1) / 2 * width;
 	    var top = (-v.y + 1) / 2 * height;
 
 	    return {x: left, y:top };
-	}
-
-	function socialHour(d, type, hour){
-		var s = d.filter(function(d){ return d.hour === hour;})[0];
-		return s ? zSocial(s[type]) : 0;
 	}
 
 	var socialHoverPos = 60;
@@ -498,24 +518,24 @@ function threeD(){
 		geometry.applyMatrix(new THREE.Matrix4().makeTranslation(0,0,0.5));
 
 		var material = new THREE.MeshLambertMaterial({ 
+			//color: 0x4DAF4A,
+			//color: 0xFFFA81,
+			//color: 0xECE200,
 			color: 0xE60032,
-			// color: 0xffffff,
 			opacity: 0.9,
 			transparent: false,
-			// wireframe: true
 		});
+		window.material = material;
 		var material2 = new THREE.MeshLambertMaterial({ 
-			color: 0xD4F65E,
-			// color: 0xffffff,
+			color: 0xE60032,
+			//color: 0x59840e,
 			opacity: 0.9,
 			transparent: false,
-			// wireframe: true
 		});
 
 		var material3 = new THREE.MeshBasicMaterial({ 
 			color: 0xffffff,
 			transparent: true,
-			// wireframe: true,
 			opacity: 0.8,
 			fog: false
 		});
@@ -605,6 +625,18 @@ function threeD(){
 	    var dataView = new DataView(arrayBuffer);
 	    var blob = new Blob([dataView], { type: mimeString });
 	    return blob;
+	}
+
+	try {
+		if((window.self !== window.top)){
+			//In iframe
+		}else{
+			//Not in iframe so play from beginning
+			state.play = true;
+			animate();
+		}
+	} catch (e) {
+		//In iframe
 	}
 
 	return threed;

@@ -39,22 +39,20 @@ function d3_tooltip(){
 	};
 
 	tooltip.position = function(xy){
-		tip.style('left', (xy[0]-width/2-4))
-			.style('top', (xy[1]-height-12))
+		tip.style('left', (xy[0]-width/2-4)+"px")
+			.style('top', (xy[1]-height-12)+"px")
 			.classed('right', false)
 			.classed('left', false);
 
 		if(xy[0]<width/2){
-			tip.style('left', (xy[0]-10))
+			tip.style('left', (xy[0]-10)+"px")
 				.classed('left', true);
 		}
 
 		if(xy[0]>(window.innerWidth-width/2)){
-			tip.style('left', (xy[0]-width+8))
+			tip.style('left', (xy[0]-width+8)+"px")
 				.classed('right', true);
 		}
-
-		
 	};
 
 	tooltip.show = function(){

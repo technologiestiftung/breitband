@@ -96,7 +96,7 @@ span.image.image-screenshot {
   background-image: url("../images/btn_snapshot.gif"); }
 
 span.image.image-instagram {
-  background-image: url("../images/btn_instagram.gif"); }
+  background-image: url("../images/btn_instagram_red.gif"); }
 
 span.image.image-twitter {
   background-image: url("../images/btn_twitter.gif"); }
@@ -225,5 +225,3 @@ span.image.image-twitter {
 
   .company-help {
     background-image: url("../images/map_close@2x.png"); } }
-
-/*# sourceMappingURL=mesh.css.map */
