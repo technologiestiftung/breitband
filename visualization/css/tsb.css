@@ -1,5 +1,9 @@
-body {
-  font-family: 'ClanOT-Book'; }
+body, html {
+  font-family: 'ClanOT-Book';
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
 
 /*
 font-family: "ClanOT-Medium";
@@ -68,11 +72,11 @@ div.white {
   background-color: transparent;
   border-color: #1e3791 transparent transparent transparent; }
 
-h2 {
+h1 {
   font-family: "ClanOT-Medium";
   font-weight: normal;
   margin: 0 0 0.3em 0;
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 1.2em; }
 
 h3 {
@@ -82,7 +86,8 @@ h3 {
 .storer-box {
   margin-top: 100px; }
 
-.storer-box h2 {
+.storer-box h2,
+.storer-box h1 {
   margin: 20px; }
 
 .storer-box p {
@@ -264,7 +269,7 @@ h3 {
   content: "\25BC";
   position: relative;
   text-align: center;
-  bottom: -10px;
+  bottom: -11px;
   left: 50%; }
 
 .d3-tip.left:after {
@@ -420,6 +425,7 @@ path.trendarea.instagram {
   margin-top: 50px; }
 
 #companies-vis {
+  margin-top: 70px;
   width: 100%;
   height: 800px; }
 
@@ -865,7 +871,9 @@ ul.legend span span {
 
 #map-intro .middle-col,
 #map-intro .scnd-col {
-  text-align: right; }
+  text-align: right;
+  padding-right: 20px;
+  max-width: 240px; }
 
 .image-brain {
   clear: both;
@@ -875,9 +883,6 @@ ul.legend span span {
   display: block;
   background-size: 71px 50px;
   background-image: url("../images/brain.png"); }
-
-#map-intro .middle-col {
-  padding-right: 0; }
 
 #map-intro .middle-col ul {
   display: block;
@@ -900,18 +905,24 @@ ul.legend span span {
 #map-intro {
   padding: 50px 0; }
 
+/* Hiding the loading tiles */
+.leaflet-layer .leaflet-tile-container {
+  display: none; }
+
+.leaflet-layer .leaflet-tile-container:last-child {
+  display: block; }
+
 /*-------- Footer --------*/
 #footer {
   clear: both;
   background-color: white;
-  color: #555;
-  padding: 70px 0 0 0;
-  margin-top: 70px; }
+  color: #555; }
 
 #sponsors {
   padding-bottom: 50px; }
 
 #footer .grey {
+  padding-top: 70px;
   background-color: #646464;
   padding-bottom: 80px;
   padding-top: 30px;
@@ -935,24 +946,30 @@ ul.legend span span {
   #footer .scnd-col .small {
     font-family: 'ClanOT-Book'; }
   #footer .scnd-col a {
-    color: #fff; }
+    color: #fff;
+    clear: left;
+    display: block; }
   #footer .scnd-col span.image {
     margin: 0 5px 5px 0; }
 
-#footer ul.logolist,
-#footer ul.logolist li {
+#close {
+  padding-top: 20px; }
+
+#close ul.logolist,
+#close ul.logolist li {
   list-style: none;
   padding: 0;
   margin: 0; }
 
-#footer ul.logolist {
+#close ul.logolist {
   padding-top: 40px; }
 
-#footer ul.logolist li {
+#close ul.logolist li {
   float: left;
   margin-right: 40px; }
 
-#footer .small {
+#footer .small,
+#close .small {
   display: block;
   clear: both;
   max-width: 500px;
@@ -985,10 +1002,13 @@ ul.legend span span {
   background-image: url("../images/eu.jpg"); }
 
 .image-tsb {
+  max-width: 100%;
   width: 323px;
   height: 94px;
-  background-size: 323px 94px;
-  background-image: url("../images/tsb.png"); }
+  background-size: 100% auto;
+  background-image: url("../images/tsb.png");
+  background-repeat: no-repeat;
+  background-position: top left; }
 
 .image-vislab {
   width: 114px;
@@ -997,11 +1017,11 @@ ul.legend span span {
   background-image: url("../images/vislab.png"); }
 
 .image-chrispie {
-  width: 43px;
-  height: 37px;
+  width: 83px;
+  height: 27px;
   float: left;
-  background-size: 43px 37px;
-  background-image: url("../images/chrispie.png"); }
+  background-size: 83px 27px;
+  background-image: url("../images/CRSP.png"); }
 
 /*---------- Bootstrap modifications ----------*/
 #breitband-icon {
@@ -1202,7 +1222,7 @@ ul.legend span span {
     background-image: url("../images/vislab@2x.png"); }
 
   .image-chrispie {
-    background-image: url("../images/chrispie@2x.png"); }
+    background-image: url("../images/CRSP@2x.png"); }
 
   #pulse h3 span.image {
     background-image: url("../images/pulse@2x.png"); }
@@ -1250,12 +1270,36 @@ ul.legend span span {
 #map .leaflet-right.leaflet-bottom {
   margin-bottom: 50px !important; }
 
+.infobtn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #e60032;
+  color: #fff;
+  font-family: "ClanOT-Medium";
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer; }
+
+#map .leaflet-right.leaflet-bottom .leaflet-info-btn-active.leaflet-info-btn.leaflet-control .infobtn,
+#map .leaflet-right.leaflet-bottom .leaflet-info-btn.leaflet-control #map_info {
+  display: none; }
+
+#map .leaflet-right.leaflet-bottom .leaflet-info-btn.leaflet-control .infobtn,
+#map .leaflet-right.leaflet-bottom .leaflet-info-btn-active.leaflet-info-btn.leaflet-control #map_info {
+  display: block; }
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
   margin-top: 20px;
-  height: 350px; }
+  height: 450px; }
+
+.carousel .item {
+  height: 450px;
+  background-color: #f5f5f5; }
 
 .carousel-indicators .active {
   background-color: black; }
@@ -1300,11 +1344,6 @@ ul.legend span span {
   font-weight: normal;
   font-size: 18px; }
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 350px;
-  background-color: #f5f5f5; }
-
 .carousel-control.right,
 .carousel-control.left {
   background-image: none; }
@@ -1322,6 +1361,9 @@ ul.legend span span {
 /******************** DEV *******************/
 #background {
   padding: 70px 0; }
+  #background h4 {
+    padding-top: 0;
+    margin-top: 0; }
 
 #background .subrow {
   padding-top: 50px;
@@ -1339,6 +1381,9 @@ ul.legend span span {
 /******************** THREEJS *******************/
 .company-help p.ismobile {
   display: none; }
+
+#perspektive {
+  height: 570px; }
 
 #threeD {
   padding-top: 70px;
@@ -1372,7 +1417,7 @@ ul.legend span span {
 #end {
   background-color: #000;
   color: #ccc;
-  padding: 20px 0 30px 0;
+  padding: 30px 0 30px 0;
   line-height: 20px; }
 
 #end a {
@@ -1393,6 +1438,16 @@ ul.legend span span {
   #noGL {
     background-image: url("../images/nogl.jpg"); } }
 @media (min-width: 515px) {
+  .carousel {
+    height: 400px; }
+
+  .carousel .item {
+    height: 400px;
+    background-color: #f5f5f5; }
+
+  h1 {
+    font-size: 2.5em; }
+
   .carousel-caption {
     padding-bottom: 60px; }
 
@@ -1402,6 +1457,17 @@ ul.legend span span {
   .mobileSvg {
     display: none; } }
 @media (min-width: 768px) {
+  #map-intro .middle-col,
+  #map-intro .scnd-col {
+    text-align: right;
+    padding-right: 0; }
+
+  .carousel {
+    height: 350px; }
+
+  .carousel .item {
+    height: 350px; }
+
   #technologien .data p {
     padding-right: 50px;
     padding-left: 0; }
@@ -1441,12 +1507,27 @@ ul.legend span span {
     text-align: right; }
 
   .sidrMenu {
-    text-align: left; } }
+    text-align: left; }
+
+  #companies-vis {
+    margin-top: 0; } }
+@media (min-width: 992px) {
+  .carousel {
+    height: 400px; }
+
+  .carousel .item {
+    height: 400px; } }
 @media (min-width: 1024px) {
   #compare .chart .col {
     height: 540px; } }
 @media (min-width: 1200px) {
   #compare .chart .col {
-    height: 520px; } }
+    height: 520px; }
+
+  .carousel {
+    height: 350px; }
+
+  .carousel .item {
+    height: 350px; } }
 
 /*# sourceMappingURL=tsb.css.map */

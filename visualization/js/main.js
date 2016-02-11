@@ -1,4 +1,4 @@
-/*global d3:false,iframeY:true,windowHeight:true */
+/*global d3:false,iframeY:true,threeactive:true,windowHeight:true */
 /*jshint unused:false*/
 var colorPalletes = {
 	red:[
@@ -34,6 +34,24 @@ function debouncer( func , timeout ) {
 	};
 }
 
+function setMesh(){
+	if(threeactive){
+		if(typeof document.getElementById("meshframe").contentWindow.threed !== "undefined"){
+			var o = $('#meshframe').offset();
+			var iframeY = o.top;
+			var windowHeight = window.innerHeight;
+			var st = $(window).scrollTop();
+			if((st+windowHeight)>iframeY && st<iframeY){
+				document.getElementById("meshframe").contentWindow.threed.play();
+			}else{
+				document.getElementById("meshframe").contentWindow.threed.pause();
+			}
+		}else{
+			window.setTimeout(function(){setMesh();}, 100);
+		}
+	}
+}
+
 window.requestAnimationFrame = (function() {
   return window.requestAnimationFrame ||
          window.webkitRequestAnimationFrame ||
@@ -52,6 +70,7 @@ $(function() {
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
+		$.sidr('close','sidr');
     });
 });
 
