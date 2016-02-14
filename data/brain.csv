@@ -1,0 +1,65 @@
+id,type,name,address,latitude,longitude
+1,1,"Charité Universitätsmedizin Berlin","Charitéplatz 1, 10117 Berlin",52.52362,13.378137
+2,1,"Deutsches Archäologisches Institut (DAI)","Podbielskiallee 69-71,14195 Berlin",52.46072,13.30074
+3,1,"Leibniz-Institut für Astrophysik Potsdam (AIP)"," An der Sternwarte 16, 14482 Potsdam",52.4045,13.10477
+4,1,"Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)","Am Neuen Markt 7, 14467 Potsdam",52.39617,13.05682
+5,1,"Bundesanstalt für Materialforschung und -prüfung (BAM)","Unter den Eichen 87,12205 Berlin",52.443226,13.287636
+6,1,"Campus Berlin Buch (BBB)","Lindenberger Weg 80,13125 Berlin",52.62661,13.506397
+7,1,"Beuth Hochschule für Technik Berlin (BHT)","Luxemburger Str. 10,13353 Berlin",52.545116,13.355232
+8,1,"Deutsches Forschungsnetz (DFN)","Tunnel Alexanderplatz 1,10178 Berlin",52.521244,13.412601
+9,1,"Deutsches Herzzentrum Berlin (DHZB)","Augustenburger Pl. 1,13353 Berlin",52.542414,13.348643
+10,1,"Deutsches Historisches Museum (DHM)","Unter den Linden 2,10117 Berlin",52.517902,13.395498
+11,1,"Deutsches Institut für Internationale Pädagogische Forschung (DIPF)","Schloßstraße 29,60486 Frankfurt am Main",50.12254,8.638396
+12,1,"Deutsches Institut für Wirtschaftsforschung e.V. (DIW)","Schloßstraße 29,60486 Frankfurt am Main",50.12254,8.638396
+13,1,"Deutsche Kinemathek (DK)","Potsdamer Straße 2,10785 Berlin",52.509651,13.373575
+14,1,"Europäische Wirtschaftshochschule Berlin (ESCP)","Heubnerweg 8-10,14059 Berlin",52.523095,13.288706
+15,1,"Forschungsinstitut für offene Kommunikationssysteme (FOKUS)","Kaiserin-Augusta-Allee 31,10589 Berlin",52.525992,13.314403
+16,1,"Forschungsinstitut für Molekulare Pharmakologie (FMP)","Robert-Rössle-Straße 10,13125 Berlin",52.627704,13.50695
+17,1,"Forschungsverbund Berlin (FVB)","Rudower Chaussee 17,12489 Berlin",52.431059,13.534214
+18,1,"Fraunhofer Institut für Zuverlässigkeit und Mikrointegration (IZM)","Gustav-Meyer-Allee 25,13355 Berlin",52.542484,13.384162
+19,1,"Freie Universität Berlin (FUB)","Kaiserswerther Str. 16-18,14195 Berlin",52.44796,13.28563
+20,1,"Geisteswissenschaftliche Zentren Berlin (GWZ)","Schützenstraße 18, 10117 Berlin",52.508748,13.395718
+21,3,"Hochschule für Technik und Wirtschaft (HTW)","Treskowallee 8,10318 Berlin",52.49222,13.5265
+22,1,"Helmholtz-Zentrum Berlin für Materialien und Energie (HZB)","Hahn-Meitner-Platz 1,14109 Berlin",52.411148,13.12983
+23,1,"Hochschule für Wirtschaft und Recht Berlin (HWR)","Badensche Str. 52,10825 Berlin",52.485533,13.338809
+24,3,"Humboldt-Universität zu Berlin (HUB)","Unter den Linden 6,10099 Berlin",52.520007,13.404954
+25,1,"Institut für Zoo- und Wildtierforschung (IZW)","Alfred-Kowalke-Straße 17,10315 Berlin",52.50597,13.52148
+26,1,"IT-Dienstleistungszentrum (ITDZ)","Berliner Straße 112-115,10713 Berlin",52.486326,13.316326
+27,3,"Konrad-Zuse-Zentrum für Informationstechnik Berlin (ZIB)","Takustraße 7,14195 Berlin",52.45554,13.29774
+28,1,"Max-Delbrück-Centrum für molekulare Medizin (MDC)","Robert-Rössle-Straße 10,13125 Berlin",52.626055,13.501493
+29,1,"Max-Born Institut für Nichtlineare Optik und Kurzzeitspektroskopie (MBI)","Max-Born-Straße,12489 Berlin",52.430774,13.528325,5,200
+30,1,"Max-Planck-Gesellschaft (MPG)","Wissenschaftspark Potsdam-Golm,Am Mühlenberg 1,14476 Potsdam",52.41556,12.96901
+31,1,"Paul-Drude-Institut (PDI)","Hausvogteiplatz 5,10117 Berlin",52.51313,13.39588
+32,1,"Physikalisch-Technische Bundesanstalt (PTB)","Bundesallee 100,38116 Braunschweig",52.29653,10.46418
+33,3,"Stiftung Preußischer Kulturbesitz (SPK)","Von-der-Heydt-Str. 16-18,10785 Berlin",52.506706,13.355183
+34,1,"Stiftung Preußische Schlösser und Gärten (SPSG)","Allee nach Sanssouci 5, 14471 Potsdam",52.40037,13.04465
+35,3,"Technische Universität Berlin (TUB)","Straße des 17. Juni 100,10557 Berlin",52.512906,13.326727
+36,1,"Universität der Künste (UdK)","Hardenbergstraße 41,10623 Berlin",52.51119,13.32329
+37,3,"Universität Potsdam (UP)","Am Neuen Palais 10, 14469 Potsdam",52.400395,13.01309
+38,3,"Weierstraß-Institut für Angewandte Analysis und Stochastik (WIAS)","Mohrenstraße 39,10117 Berlin",52.51268,13.39594
+39,1,"Wissenschaftsforum Berlin (WissF)","Markgrafenstraße 37,10117 Berlin",52.51348,13.39353
+40,1,"Wissenschaftskolleg zu Berlin (WiKo)","Wallotstraße 19,14193 Berlin",52.491522,13.276505
+41,3,"Wissenschafts- und Technologiepark Adlershof (WISTA) / Humbold-Universität zu Berlin in Adlershof(ADH)","Rudower Chaussee 17,12489 Berlin",52.431059,13.534214
+42,1,"Wissenschaftszentrum Berlin (WZB)","Reichpietschufer 50, 10785 Berlin",52.506397,13.365086
+43,1,"Zentral- und Landesbibliothek Berlin (ZLB)","Blücherplatz 1, 10961 Berlin",52.496312,13.390313
+44,2,"Bezirksamt Steglitz-Zehlendorf","Kirchstraße 1-3,14163 Berlin",52.43339,13.25763
+45,2,"Bezirksamt Spandau","Carl-Schurz-Straße 2/6,13597 Berlin",52.535676,13.201389
+46,2,"Bezirksamt Steglitz-Zehlendorf","Kirchstraße 1-3,14163 Berlin",52.43339,13.25763
+47,2,"Rathaus Schöneberg","Berlinickestraße 13, 12165 Berlin",52.45534,13.32327
+48,2,"Rathaus Neukölln","Donaustraße 29,12043 Berlin",52.481519,13.436671
+49,2,"Rathaus Treptow","Michael-Brückner-Straße 1,12439 Berlin",52.45621,13.51077
+50,2,"Rathaus Charlottenburg","Otto-Suhr-Allee 100,10585 Berlin",52.517305,13.308204
+51,2,"Rathaus Tiergarten","Mathilde-Jacob-Platz 1,10551 Berlin",52.526809,13.338023
+52,2,"Rathaus Wedding","Müllerstraße 146 / 147,13353 Berlin",52.547505,13.356241
+53,2,"Rathaus Reinickendorf","Eichborndamm 215 - 239,13437 Berlin",52.58987,13.32487
+54,2,"Rathaus Prenzaluer Berg","",52.5392985,13.3995096",52.513978,13.4816
+55,2,"Rathaus Weißensee","Berliner Allee 252- 260,13088 Berlin",52.559965,13.470447
+56,2,"Rathaus Hohenschönhausen","Egon-Erwin-Kisch-Straße 106,13059 Berlin",52.567483,13.514081
+57,2,"Altes Stadthaus","Klosterstraße 47,10179 Berlin",52.517781,13.412189,8,200
+58,2,"Rotes Rathaus","Rathausstraße,10178 Berlin",52.518281,13.408565
+59,2,"Rathaus Köpenick","Alt-Köpenick 21,12555 Berlin",52.445423,13.574941
+60,2,"Bezirksamt Kreuzberg","Yorckstraße 4,10965 Berlin",52.49346,13.385851
+61,2,"Rathaus Friedrichshain","Frankfurter Allee 35-37,10247 Berlin",52.51529,13.46162
+62,2,"Rathaus Wilmersdorf","",52.489694,13.313472
+63,2,"VwZ Friedrichsfelde","",52.4971077,13.5207458
+64,3,"Charité Virchow Klinikum (CVK)","Augustenburger Platz 1",52.5424137,13.3464547

@@ -1,0 +1,35 @@
+[{
+	"short":"DSL",
+	"long":"Digital Subscriber Line",
+	"description":"",
+	"type":"cabel",
+	"speeds":[99.7, 99.86, 99.37, 95.66, 81.43, 37.54]
+},
+{
+	"short":"CATV",
+	"long":"Kabelnetz",
+	"description":"",
+	"type":"cabel",
+	"speeds":[88.92, 88.92, 88.92, 88.92, 88.92, 88.92]
+},
+{
+	"short":"FFTX",
+	"long":"Faseroptische Technologie",
+	"description":"",
+	"type":"cabel",
+	"speeds":[0.35, 0.35, 0.35, 0.35, 0.35, 0.35]
+},
+{
+	"short":"LTE",
+	"long":"Long Term Evolution",
+	"description":"",
+	"type":"mobile",
+	"speeds":[100.0, 100.0, 95.07]
+},
+{
+	"short":"HSDPA",
+	"long":"Breitband-UMTS",
+	"description":"",
+	"type":"mobile",
+	"speeds":[99.94, 43.47]
+}]
