@@ -1559,6 +1559,13 @@ ul.legend span span{
 		height:auto;
 		max-width:360px;
 	}
+	.license img{
+		margin-bottom:20px;
+		max-width:100%;
+		width:auto;
+		height:auto;
+		float:none;
+	}
 }
 
 /******************** THREEJS *******************/
@@ -1667,6 +1674,11 @@ ul.legend span span{
 }
 
 @media (min-width: 768px) {
+	#background .subrow .license img{
+		float:right;
+		margin-bottom:0;
+	}
+
 	#map-intro .middle-col,
 	#map-intro .scnd-col{
 		text-align: right;
