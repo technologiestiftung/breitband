@@ -15,7 +15,7 @@ function stateMap(){
 		if(window.innerHeight/2<600){
 			$('#map_container').css('height', (window.innerHeight*0.65)+'px');
 		}else{
-			$('#map_container').css('height', '600px');	
+			$('#map_container').css('height', '600px');
 		}
 
 		statemap.build();
@@ -37,8 +37,9 @@ function stateMap(){
 
 	statemap.build = function(){
 		map = new L.Map('map', {
-			center: new L.LatLng(52.5047, 13.4244), 
+			center: new L.LatLng(52.5047, 13.4244),
 			zoom: 11,
+			scrollWheelZoom:false,
 			attributionControl:false,
 			maxZoom:18,
 			minZoom:11,
@@ -46,7 +47,7 @@ function stateMap(){
 				L.latLng(52.3642, 13.0928),
 				L.latLng(52.6605, 13.7565)
 			)
-		}).on('click', function() { 
+		}).on('click', function() {
 			map.scrollWheelZoom.enable();
 		}).on('zoomstart', function(){
 			$('.leaflet-google-layer:last').css('opacity',0);
@@ -79,7 +80,7 @@ function stateMap(){
 
 		var BrainControl = L.Control.extend({
 			options: {
-				position: 'topright' 
+				position: 'topright'
 			},
 
 			onAdd: function (map) {
@@ -105,7 +106,7 @@ function stateMap(){
 
 		var InfoControl = L.Control.extend({
 			options: {
-				position: 'bottomright' 
+				position: 'bottomright'
 			},
 
 			onAdd: function (map) {
@@ -119,7 +120,7 @@ function stateMap(){
 				return container;
 			}
 		});
-		
+
 		info = new InfoControl();
 		map.addControl(info);
 		infostate = true;
