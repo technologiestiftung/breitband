@@ -153,6 +153,25 @@
 
 		</section>
 
+		<section id="speeddesc">
+			<div class="row">
+				<div class="col col-xs-12 col-sm-4 col-lg-4">
+					<h3>Verfügbare und<br/>tatsächliche Geschwindigkeit</h3>
+					<p>
+						Kurze Einführung...
+					</p>
+					<div class="red company-help">
+						Mehr lernen über die Details...
+						<div class="triangle bottom red visible-sm"></div>
+						<div class="triangle right red hidden-sm"></div>
+					</div>
+				</div>
+				<div class="col col-xs-12 col-sm-8 col-lg-8">
+					<svg id="speeddesc-container"></svg>
+				</div>
+			</div>
+		</section>
+
 		<section id="puls">
 			<div id="pulse" class="white">
 				<div class="container">
@@ -381,7 +400,7 @@
 								<a href="http://www.vislab.io" target="_blank">Sebastian Meier — VISLAB.io</a><br />
 
 								<a href="http://www.chrispie.com" target="_blank" title="Christopher Pietsch"><span class="image image-chrispie"></span></a>
-								
+
 								<a href="http://www.chrispie.com" target="_blank" title="Christopher Pietsch">Christopher Pietsch</a>
 							</div>
 						</div>
@@ -519,8 +538,9 @@
 		<!-- Breitband Scripts -->
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.2&sensor=false&key=AIzaSyCAyMD9WlqCuPFHKI9T7tpDl2DU7VZ9LA0"></script>
 		<script type="text/javascript" src="js/min/breitband-min.js"></script>
+		<script type="text/javascript" src="js/d3.speed.js"></script>
 		<script type="text/javascript">
-			var minimap, tooltip, company, pulse, compare, technologie, map, threeactive = false;
+			var minimap, tooltip, company, pulse, compare, technologie, map, speed, threeactive = false;
 
 			$(document).ready(function() {
 				$('#sidr-btn').sidr({
@@ -544,12 +564,15 @@
 
 				compare = d3_compare();
 				d3.selectAll('#compare-container').call(compare);
-				
+
 				pulse = d3_pulse();
 				d3.selectAll('#d3_pulse').call(pulse);
 
 				technologie = d3_technologie();
 				d3.selectAll('#d3_technologie').call(technologie);
+
+				speed = d3_speed();
+				d3.selectAll('#speeddesc-container').call(speed);
 
 				map = new stateMap();
 				map.init();
@@ -575,6 +598,7 @@
 					company.resize();
 					compare.resize();
 					technologie.resize();
+					speed.resize();
 				}));
 
 				$(window).scroll(debouncer(function(e){
