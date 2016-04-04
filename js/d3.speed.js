@@ -6,41 +6,41 @@ function d3_speed(){
             obj:false,
             x:50,
             y:234,
-            title:'',
-            copy:'',
-            img:''
+            title:'Verteilerknoten',
+            copy:'Hier entscheidet sich welche Technologien verfügbar sind. Doch schon hier gibt es erste Unterschiede, den die tatsächliche Geschwindigkeit ist z.B. abhängig vom Anbieter und deren verwedeter Technologien.',
+            img:'speed_detail_1.gif'
         },
         {
             obj:false,
             x:244,
             y:135,
-            title:'',
-            copy:'',
-            img:''
+            title:'Datenstau',
+            copy:'Während kabelgebundene Systeme relativ viele Nutzer und damit Daten gleichzeitig verarbeiten können, so fällt dieser Punkt bei mobilen Systemen noch stärker ins Gewicht.',
+            img:'speed_detail_2.gif'
         },
         {
             obj:false,
             x:344,
             y:377,
-            title:'',
-            copy:'',
-            img:''
+            title:'Die letzte Meile',
+            copy:'Obwohl Glasfaserleitungen am Verteiler anliegen, sind viele Nutzer/innen auf der letzten Meile immer noch über alte Kupferkabel ans Netz angebunden.',
+            img:'speed_detail_3.gif'
         },
         {
             obj:false,
             x:555,
             y:250,
-            title:'',
-            copy:'',
-            img:''
+            title:'Hardware und Software',
+            copy:'Neben alten Leitungen kann auch alte Hardware und Software zu einem langsameren Internetvergnügen führen.',
+            img:'speed_detail_4.gif'
         },
         {
             obj:false,
             x:612,
             y:145,
-            title:'',
-            copy:'',
-            img:''
+            title:'Zu viele Wifi-Netzwerke',
+            copy:'Gerade in dicht besiedelten Bereichen, kämpfen duzende drahtlose Netzwerke um die verfügbaren Kanäle. Denn Netzwerke die auf dem selben Kanal funken können die Qualität und damit die Geschwindigkeit beeinflussen.',
+            img:'speed_detail_5.gif'
         }
     ],
     width=750,
@@ -76,7 +76,7 @@ function d3_speed(){
 
               image = sel.append("image")
                 .attr("xmlns:xlink", "http://www.w3.org/1999/xlink")
-                .attr("xlink:href","images/illu/speed_desc.gif");
+                .attr("xlink:href","images/illu/speed_desc@2x.gif");
 
             for(var j = 0; j<btns.length; j++){
                 btns[j].obj = sel.append("g");
@@ -111,9 +111,16 @@ function d3_speed(){
                     })
                     .on("click", function(d){
                         var id = parseInt(d3.select(this).attr("id").split("-")[1]);
-                        //showInfo
+                        d3.select('#speeddesc-overlay h4').text(btns[id].title);
+                        d3.select('#speeddesc-overlay p').text(btns[id].copy);
+                        d3.select('#speeddesc-overlay img').attr("src", "./images/illu/"+btns[id].img);
+                        d3.select('#speeddesc-overlay').style('display','block');
                     });
             }
+
+            d3.select('#speeddesc-overlay').on("click",function(){
+                d3.select('#speeddesc-overlay').style('display','none');
+            });
 
             speed.resize();
         });
@@ -131,6 +138,10 @@ function d3_speed(){
             for(var j = 0; j<btns.length; j++){
                 btns[j].obj.attr("transform", "translate("+(btns[j].x*trans)+" "+(btns[j].y*trans)+") scale("+trans+")");
             }
+
+            d3.select('#speeddesc-overlay')
+                .style('height',trans*height+"px")
+                .style('margin-top',((trans*height+5)*-1)+"px");
 
         });
     };
