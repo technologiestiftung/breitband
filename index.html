@@ -4,7 +4,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta charset='UTF-8' />
+		<meta charset="UTF-8" />
 		<title>Breitbandausbau Berlin</title>
 		<!--[if lt IE 10]>
 	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -12,7 +12,7 @@
 	    <![endif]-->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/leaflet.css" />
-		<link rel='stylesheet' href='css/main.css' type='text/css' />
+		<link rel="stylesheet" href="css/main.css" type="text/css" />
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 	</head>
 	<body>
@@ -134,10 +134,10 @@
 						<div class="col col-xs-12 col-sm-4 col-lg-4 scnd-col">
 							<p><strong>Anteil der Haushalte mit 50Mbit/s Breitband</strong></p>
 							<ul class="legend">
-								<li>≥95%<span><span style="background-color:rgba(189,0,38,0.8);"></span></span> ></li>
-								<li>75 - 95%<span><span style="background-color:rgba(240,59,32,0.8);"></span></span> ></li>
-								<li>50 - 75%<span><span style="background-color:rgba(253,141,60,0.8);"></span></span> ></li>
-								<li>10 - 50%<span><span style="background-color:rgba(254,204,92,0.8);"></span></span> ></li>
+								<li>≥95%<span><span style="background-color:rgba(189,0,38,0.8);"></span></span></li>
+								<li>75 - 95%<span><span style="background-color:rgba(240,59,32,0.8);"></span></span></li>
+								<li>50 - 75%<span><span style="background-color:rgba(253,141,60,0.8);"></span></span></li>
+								<li>10 - 50%<span><span style="background-color:rgba(254,204,92,0.8);"></span></span></li>
 								<li>0 - 10%<span><span style="background-color:rgba(255,255,178,0.8);"></span></span></li>
 								<li>Keine Daten<span><span style="background-color:rgba(0,0,0,0.1);"></span></span></li>
 							</ul>
@@ -171,7 +171,7 @@
 					<div class="col col-xs-12 col-sm-8 col-lg-8">
 						<div id="speeddesc-container"></div>
 						<div id="speeddesc-overlay">
-							<img src="" />
+							<img src="default" />
 							<div class="inner">
 								<h4></h4>
 								<p></p>
@@ -221,10 +221,10 @@
 							<div id="small-legend">
 								<p><strong>Anteil der Haushalte<br />mit 50Mbit/s Breitband</strong></p>
 								<ul class="legend">
-									<li><span><span style="background-color:rgba(189,0,38,0.3);"></span></span> >95% </li>
-									<li><span><span style="background-color:rgba(240,59,32,0.3);"></span></span> >75 - 95%</li>
-									<li><span><span style="background-color:rgba(253,141,60,0.3);"></span></span> >50 - 75%</li>
-									<li><span><span style="background-color:rgba(254,204,92,0.3);"></span></span> >10 - 50%</li>
+									<li><span><span style="background-color:rgba(189,0,38,0.3);"></span></span> ≥95% </li>
+									<li><span><span style="background-color:rgba(240,59,32,0.3);"></span></span> 75 - 95%</li>
+									<li><span><span style="background-color:rgba(253,141,60,0.3);"></span></span> 50 - 75%</li>
+									<li><span><span style="background-color:rgba(254,204,92,0.3);"></span></span> 10 - 50%</li>
 									<li><span><span style="background-color:rgba(255,255,178,0.3);"></span></span> 0 - 10%</li>
 									<li><span><span style="background-color:rgba(0,0,0,0.1);"></span></span> Keine Daten</li>
 								</ul>
@@ -566,7 +566,7 @@
 					$.sidr('close','sidr');
 				});
 
-				/*tooltip = d3_tooltip();
+				tooltip = d3_tooltip();
 				d3.select('body').call(tooltip);
 
 				minimap = d3_minimap();
@@ -584,12 +584,8 @@
 				technologie = d3_technologie();
 				d3.selectAll('#d3_technologie').call(technologie);
 
-				*/
-
 				speed = d3_speed();
 				d3.selectAll('#speeddesc-container').call(speed);
-
-				/*
 
 				map = new stateMap();
 				map.init();
@@ -607,20 +603,20 @@
 				} else {
 					d3.select("#hasGL").remove();
 					d3.select("#noGL").style("display", "block");
-				}*/
+				}
 
 				$(window).resize(debouncer(function(e){
-					/*map.resize();
+					map.resize();
 					minimap.resize();
 					company.resize();
 					compare.resize();
-					technologie.resize();*/
+					technologie.resize();
 					speed.resize();
 				}));
 
 				$(window).scroll(debouncer(function(e){
 					if(threeactive){
-						//setMesh();
+						setMesh();
 					}
 				}));
 			});
