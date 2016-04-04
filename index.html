@@ -154,20 +154,22 @@
 		</section>
 
 		<section id="speeddesc">
-			<div class="row">
-				<div class="col col-xs-12 col-sm-4 col-lg-4">
-					<h3>Verfügbare und<br/>tatsächliche Geschwindigkeit</h3>
-					<p>
-						Kurze Einführung...
-					</p>
-					<div class="red company-help">
-						Mehr lernen über die Details...
-						<div class="triangle bottom red visible-sm"></div>
-						<div class="triangle right red hidden-sm"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col col-xs-12 col-sm-4 col-lg-4">
+						<h3>Verfügbare und<br/>tatsächliche Geschwindigkeit</h3>
+						<p>
+							Kurze Einführung...
+						</p>
+						<div class="red company-help">
+							Mehr lernen über die Details...
+							<div class="triangle bottom red visible-sm"></div>
+							<div class="triangle right red hidden-sm"></div>
+						</div>
 					</div>
-				</div>
-				<div class="col col-xs-12 col-sm-8 col-lg-8">
-					<svg id="speeddesc-container"></svg>
+					<div class="col col-xs-12 col-sm-8 col-lg-8">
+						<div id="speeddesc-container"></div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -553,7 +555,7 @@
 					$.sidr('close','sidr');
 				});
 
-				tooltip = d3_tooltip();
+				/*tooltip = d3_tooltip();
 				d3.select('body').call(tooltip);
 
 				minimap = d3_minimap();
@@ -571,8 +573,12 @@
 				technologie = d3_technologie();
 				d3.selectAll('#d3_technologie').call(technologie);
 
+				*/
+
 				speed = d3_speed();
 				d3.selectAll('#speeddesc-container').call(speed);
+
+				/*
 
 				map = new stateMap();
 				map.init();
@@ -590,20 +596,20 @@
 				} else {
 					d3.select("#hasGL").remove();
 					d3.select("#noGL").style("display", "block");
-				}
+				}*/
 
 				$(window).resize(debouncer(function(e){
-					map.resize();
+					/*map.resize();
 					minimap.resize();
 					company.resize();
 					compare.resize();
-					technologie.resize();
+					technologie.resize();*/
 					speed.resize();
 				}));
 
 				$(window).scroll(debouncer(function(e){
 					if(threeactive){
-						setMesh();
+						//setMesh();
 					}
 				}));
 			});

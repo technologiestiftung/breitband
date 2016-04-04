@@ -1,2 +1,18 @@
 
 *.codekit
+
+*.woff
+
+*.ttf
+
+*.eot
+
+*.woff2
+
+fonts/clanot-book-webfont.svg
+
+fonts/clanot-medium-webfont.svg
+
+fonts/glyphicons-halflings-regular.svg
+
+fonts/TSB.svg

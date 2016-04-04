@@ -3,7 +3,7 @@ body, html{
 	width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 /*
@@ -176,7 +176,7 @@ h3{
 
 .minimap text{
 	font-size:18px;
-	font-family: "ClanOT-Medium";	
+	font-family: "ClanOT-Medium";
 	font-weight:normal;
 }
 
@@ -787,7 +787,7 @@ path.trendarea.instagram{
 	font-weight: bold;
 	text-shadow: none;*/
     margin-right: 7px;
-    margin: 2px; 
+    margin: 2px;
     float: left;
     width: 20px;
     height: 20px;
@@ -1166,7 +1166,7 @@ ul.legend span span{
 	list-style:none;
 	padding:0;
 	margin:0;
-} 
+}
 
 #close ul.logolist{
 	padding-top:40px;
@@ -1305,7 +1305,7 @@ ul.legend span span{
 
 /******************** Highres Retina Images *******************/
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 
 	#map_info.company-help{
 		background-image:url('../images/map_close@2x.png');
@@ -1766,4 +1766,50 @@ ul.legend span span{
 	.carousel .item {
 		height: 350px;
 	}
+}
+
+/*----- SPEED -----*/
+
+#speeddesc{
+	padding-top:100px;
+}
+
+#speeddesc-container{
+	width:100%;
+}
+
+#speeddesc-container .fullcircle{
+	fill:rgba(30,55,145,0.7);
+	stroke:transparent;
+	stroke-width:4px;
+}
+
+#speeddesc-container .outercircle-1{
+	stroke:rgba(30,55,145,0.7);
+	fill:transparent;
+	stroke-width:3px;
+}
+
+#speeddesc-container .outercircle-2{
+	stroke:rgba(30,55,145,0.7);
+	fill:transparent;
+	stroke-width:2px;
+}
+
+#speeddesc-container .active .fullcircle{
+	fill:rgba(30,55,145,1);
+}
+
+#speeddesc-container .active .outercircle-1{
+	stroke:rgba(30,55,145,1);
+}
+
+#speeddesc-container .active .outercircle-2{
+	stroke:rgba(30,55,145,1);
+}
+
+#speeddesc-container .clickcircle{
+	fill:transparent;
+	stroke:transparent;
+	cursor: pointer;
 }
