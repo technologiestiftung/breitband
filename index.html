@@ -164,20 +164,18 @@
 						<div class="red company-help pulse-help">
 							<strong>Störfaktoren</strong>
 							<p><span class="image image-interactive"></span>Erfahren Sie mehr über mögliche Gründe für zu langsames Internet in der interaktiven Grafik.</p>
-							<div class="triangle bottom red visible-sm"></div>
-							<div class="triangle right red hidden-sm"></div>
+							<div class="triangle bottom red visible-xs"></div>
+							<div class="triangle right red hidden-xs"></div>
 						</div>
 					</div>
 					<div class="col col-xs-12 col-sm-8 col-lg-8">
 						<div id="speeddesc-container"></div>
 						<div id="speeddesc-overlay">
-							<img src="default" />
+							<div class="close"><img src="images/illu/speed_close.gif" alt="Schließen" /></div>
+							<img src="default" id="speeddesc-img" />
 							<div class="inner">
 								<h4></h4>
 								<p></p>
-							</div>
-							<div class="close">
-								<img src="images/illu/speed_close.gif" alt="Schließen" />
 							</div>
 						</div>
 					</div>
@@ -566,7 +564,7 @@
 					$.sidr('close','sidr');
 				});
 
-				tooltip = d3_tooltip();
+				/*tooltip = d3_tooltip();
 				d3.select('body').call(tooltip);
 
 				minimap = d3_minimap();
@@ -582,19 +580,19 @@
 				d3.selectAll('#d3_pulse').call(pulse);
 
 				technologie = d3_technologie();
-				d3.selectAll('#d3_technologie').call(technologie);
+				d3.selectAll('#d3_technologie').call(technologie);*/
 
 				speed = d3_speed();
 				d3.selectAll('#speeddesc-container').call(speed);
 
-				map = new stateMap();
-				map.init();
+				/*map = new stateMap();
+				map.init();*/
 
 				if ( Detector.webgl) {
 					if(!isMobile){
 						$('#hasGL iframe').attr('src', 'mesh.html');
 						threeactive = true;
-						setMesh();
+						//setMesh();
 					}else{
 						d3.select("#hasGL").remove();
 						d3.select(".nowebgl").style("display", "none");
@@ -606,11 +604,11 @@
 				}
 
 				$(window).resize(debouncer(function(e){
-					map.resize();
+					/*map.resize();
 					minimap.resize();
 					company.resize();
 					compare.resize();
-					technologie.resize();
+					technologie.resize();*/
 					speed.resize();
 				}));
 

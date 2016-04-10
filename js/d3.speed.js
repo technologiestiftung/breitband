@@ -113,7 +113,7 @@ function d3_speed(){
                         var id = parseInt(d3.select(this).attr("id").split("-")[1]);
                         d3.select('#speeddesc-overlay h4').text(btns[id].title);
                         d3.select('#speeddesc-overlay p').text(btns[id].copy);
-                        d3.select('#speeddesc-overlay img').attr("src", "./images/illu/"+btns[id].img);
+                        d3.select('#speeddesc-overlay img#speeddesc-img').attr("src", "./images/illu/"+btns[id].img);
                         d3.select('#speeddesc-overlay').style('display','block');
                     });
             }
@@ -139,9 +139,19 @@ function d3_speed(){
                 btns[j].obj.attr("transform", "translate("+(btns[j].x*trans)+" "+(btns[j].y*trans)+") scale("+trans+")");
             }
 
-            d3.select('#speeddesc-overlay')
-                .style('height',trans*height+"px")
-                .style('margin-top',((trans*height+5)*-1)+"px");
+			if(trans*height > 350){
+				d3.select('#speeddesc-container').style('height',trans*height+"px");
+				d3.select('#speeddesc-overlay')
+					.style('height',(trans*height+10)+"px")
+					.style('margin-top',((trans*height+5)*-1)+"px");
+				d3.select('#speeddesc-img').style("margin-top",(((trans*height)-350)/2)+"px");
+			}else{
+				d3.select('#speeddesc-img').style("margin-top","0px");
+				d3.select('#speeddesc-container').style('height',"350px");
+				d3.select('#speeddesc-overlay')
+					.style('height',"350px")
+					.style('margin-top',"-350px");
+			}
 
         });
     };
