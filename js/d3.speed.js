@@ -150,12 +150,16 @@ function d3_speed(){
 					.style('height',(trans*height+10)+"px")
 					.style('margin-top',((trans*height+5)*-1)+"px");
 				d3.select('#speeddesc-img').style("margin-top",(((trans*height)-350)/2)+"px");
+
+				d3.select('#speeddesc').style('height', (trans*height+150)+"px");
 			}else{
 				d3.select('#speeddesc-img').style("margin-top","0px");
 				d3.select('#speeddesc-container').style('height',"350px");
 				d3.select('#speeddesc-overlay')
 					.style('height',"350px")
 					.style('margin-top',"-350px");
+
+				d3.select('#speeddesc').style('height', "auto");
 			}
 
         });
