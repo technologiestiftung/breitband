@@ -47,6 +47,11 @@ function d3_speed(){
     height=422;
 
 	function speed(sel){
+		for(var i in btns){
+			btns[i]["preload"] = new Image();
+			btns[i].preload.src = "./images/illu/"+btns[i].img;
+		}
+
 		selection = sel;
 		speed.init();
 	}
