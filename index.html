@@ -564,7 +564,7 @@
 					$.sidr('close','sidr');
 				});
 
-				/*tooltip = d3_tooltip();
+				tooltip = d3_tooltip();
 				d3.select('body').call(tooltip);
 
 				minimap = d3_minimap();
@@ -580,19 +580,19 @@
 				d3.selectAll('#d3_pulse').call(pulse);
 
 				technologie = d3_technologie();
-				d3.selectAll('#d3_technologie').call(technologie);*/
+				d3.selectAll('#d3_technologie').call(technologie);
 
 				speed = d3_speed();
 				d3.selectAll('#speeddesc-container').call(speed);
 
-				/*map = new stateMap();
-				map.init();*/
+				map = new stateMap();
+				map.init();
 
 				if ( Detector.webgl) {
 					if(!isMobile){
 						$('#hasGL iframe').attr('src', 'mesh.html');
 						threeactive = true;
-						//setMesh();
+						setMesh();
 					}else{
 						d3.select("#hasGL").remove();
 						d3.select(".nowebgl").style("display", "none");
@@ -604,11 +604,11 @@
 				}
 
 				$(window).resize(debouncer(function(e){
-					/*map.resize();
+					map.resize();
 					minimap.resize();
 					company.resize();
 					compare.resize();
-					technologie.resize();*/
+					technologie.resize();
 					speed.resize();
 				}));
 
