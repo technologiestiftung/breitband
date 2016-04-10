@@ -41,6 +41,7 @@ function stateMap(){
 			zoom: 11,
 			scrollWheelZoom:false,
 			attributionControl:false,
+			hoverToWake: false,
 			maxZoom:18,
 			minZoom:11,
 			maxBounds:L.latLngBounds(
