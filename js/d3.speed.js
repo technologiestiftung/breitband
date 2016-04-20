@@ -7,7 +7,7 @@ function d3_speed(){
             x:50,
             y:234,
             title:'Verteilerknoten',
-            copy:'Hier entscheidet sich, welche Technologien verfügbar sind. Schon hier gibt es erste Unterschiede, denn die tatsächliche Geschwindigkeit ist z.B. abhängig vom Anbieter und den von ihm verwedeten Technologien.',
+            copy:'Hier entscheidet sich, welche Technologien verfügbar sind. Schon hier gibt es erste Unterschiede, denn die tatsächliche Geschwindigkeit ist z.B. abhängig vom Anbieter und den von ihm verwendeten Technologien.',
             img:'speed_detail_1.gif'
         },
         {
@@ -15,7 +15,7 @@ function d3_speed(){
             x:244,
             y:135,
             title:'Datenstau',
-            copy:'Kabelgebundene Systemen können relativ viele Nutzer/innen und damit Daten gleichzeitig verarbeiten. Wenn dagegen viele Geräte gleichzeitig über mobile Verbindungen aufs Netz zugreifen, kommt es eher zu Einbußen bei der Geschwindigkeit.',
+            copy:'Kabelgebundene Systeme können relativ viele Nutzer/innen und damit Daten parallel verarbeiten. Wenn dagegen viele Geräte gleichzeitig über mobile Verbindungen aufs Netz zugreifen, kommt es eher zu Einbußen bei der Geschwindigkeit.',
             img:'speed_detail_2.gif'
         },
         {
