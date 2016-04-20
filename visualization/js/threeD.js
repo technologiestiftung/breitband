@@ -80,6 +80,7 @@ function threeD(){
 
 	var renderer = new THREE.WebGLRenderer( {antialias:true, preserveDrawingBuffer: false } );
 		renderer.setClearColor( 0x1E3791 );
+	//	renderer.setClearColor( 0xFFFFFF );
 		renderer.setSize( width, height );
 		// renderer.setPixelRatio(window.devicePixelRatio ? window.devicePixelRatio : 1);
 		container.appendChild( renderer.domElement );
@@ -136,6 +137,7 @@ function threeD(){
 		.call(zoom)
 		.on("mousemove", function(){
 			var m = d3.mouse(this);
+			// console.log(m, event)
 			mouse.x = ( m[0] / width ) * 2 - 1;
 			mouse.y = - ( m[1] / height ) * 2 + 1;		
 
@@ -191,6 +193,7 @@ function threeD(){
 			d.name = i;
 			d.xx = parseInt(d.xx);
 			d.yy = parseInt(d.yy);
+			// d.social = d3.range(24).map(function(d){ return { instagram: 0, twitter: 0}});
 			d.social = [];
 			d.cube = null;
 			d.cube2 = null;
@@ -299,6 +302,7 @@ function threeD(){
 		var now = 0;
 		makeSocialStatic(data, now);
 		makeCenters();
+		// animate();
 		render();
 		
 		loaded = true;
@@ -413,9 +417,13 @@ function threeD(){
 
 	function render(time) {
 		if(!loaded){ return; }
-		
+
+		// console.log("render")
+
 		scene2.rotation.z += 0.001;
+
 		update_labels(objects);
+		//raycast();
 		if(state.twitter || state.instagram){
 			updateSocial(time);
 			animateSocial();
@@ -427,6 +435,10 @@ function threeD(){
 			renderer.domElement.toBlob(function(blob) {
 			    saveAs(blob, "breitband.png");
 			});
+			
+			// var screenshot = renderer.domElement.toDataURL();
+			// saveAs(dataURItoBlob(screenshot), "breitband.png");
+
 			makeScreenshot = false;
 		}
 
@@ -451,6 +463,8 @@ function threeD(){
 			var diff = (socialHoverPos-d.z);
 
 			if(social){
+				// if(state.instagram){ zInstagram = diff + zSocial(social.instagram); }
+				// if(state.twitter){ zTwitter = diff + zSocial(social.twitter); }
 				if(state.instagram){ zInstagram = diff + zSocialInstagram(social.instagram); }
 				if(state.twitter){ zTwitter = diff + zSocialTweets(social.twitter); }
 			}
@@ -464,12 +478,15 @@ function threeD(){
 	function animateSocial(){
 		dataMin.forEach(function(d){
 			if(d.cube){
+				// d.cube.scale.z += (d.cube.animateZ - d.cube.scale.z)*0.1;
 				d.cube.position.z += (d.z -10 + d.cube.animateZ - d.cube.position.z) * animationSpeed;
+				// d.cube.visible = (d.cube.position.z > 1);
 				d.cube.scale.z = d.cube.scale.x = d.cube.scale.y += (d.cube.animateZ/20 - d.cube.scale.z) * animationSpeed;
 			}
 			if(d.cube2){
 				d.cube2.position.z += (d.z -10 + d.cube2.animateZ - d.cube2.position.z) * animationSpeed;
 				d.cube2.scale.z = d.cube2.scale.x = d.cube2.scale.y += (d.cube2.animateZ/20 - d.cube2.scale.z) * animationSpeed;
+				// d.cube2.visible = (d.cube2.scale.z > 1); 
 			}
 		});
 	}
@@ -501,6 +518,9 @@ function threeD(){
 		geometry.applyMatrix(new THREE.Matrix4().makeTranslation(0,0,0.5));
 
 		var material = new THREE.MeshLambertMaterial({ 
+			//color: 0x4DAF4A,
+			//color: 0xFFFA81,
+			//color: 0xECE200,
 			color: 0xE60032,
 			opacity: 0.9,
 			transparent: false,
@@ -508,6 +528,7 @@ function threeD(){
 		window.material = material;
 		var material2 = new THREE.MeshLambertMaterial({ 
 			color: 0xE60032,
+			//color: 0x59840e,
 			opacity: 0.9,
 			transparent: false,
 		});
@@ -571,10 +592,12 @@ function threeD(){
 		geometryMesh.computeBoundingBox();
 
 		var materialLambert = new THREE.MeshLambertMaterial({
+			// color: new THREE.Color().setStyle("rgb(110,205,245)"),
 			color: 0x6ECDF5,
 			side: THREE.BackSide,
 			wireframe:false,
 			transparent: true
+			// opacity: 0.6
 		});
 
 		var mesh = new THREE.Mesh( geometryMesh, materialLambert );
@@ -583,6 +606,25 @@ function threeD(){
 		scene3.add(mesh);
 
 		return mesh;
+	}
+
+	function dataURItoBlob(dataURI) {
+	    // convert base64 to raw binary data held in a string
+	    var byteString = atob(dataURI.split(',')[1]);
+
+	    // separate out the mime component
+	    var mimeString = dataURI.split(',')[0].split(':')[1].split(';')[0];
+
+	    // write the bytes of the string to an ArrayBuffer
+	    var arrayBuffer = new ArrayBuffer(byteString.length);
+	    var _ia = new Uint8Array(arrayBuffer);
+	    for (var i = 0; i < byteString.length; i++) {
+	        _ia[i] = byteString.charCodeAt(i);
+	    }
+
+	    var dataView = new DataView(arrayBuffer);
+	    var blob = new Blob([dataView], { type: mimeString });
+	    return blob;
 	}
 
 	try {

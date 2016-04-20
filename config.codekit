@@ -1,0 +1,4367 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "19102",
+"files": {
+	"\/data\/Breitbandatlas\/Gew_300_100_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 385100,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Gew_300_100_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Gew_300_100_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Gew_300_10_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 370669,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Gew_300_10_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Gew_300_10_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Gew_300_2_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 366399,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Gew_300_2_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Gew_300_2_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Gew_300_30_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 389326,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Gew_300_30_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Gew_300_30_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Gew_300_50_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 385772,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Gew_300_50_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Gew_300_50_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_100_16_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 380134,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_100_16_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_100_16_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_100_1_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 366441,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_100_1_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_100_1_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_100_2_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 365711,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_100_2_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_100_2_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_100_30_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 405667,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_100_30_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_100_30_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_100_50_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 415472,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_100_50_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_100_50_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_100_6_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 367562,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_100_6_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_100_6_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_200_16_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 399319,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_200_16_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_200_16_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_200_1_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 365798,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_200_1_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_200_1_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_200_2_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 365218,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_200_2_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_200_2_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_200_30_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 399319,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_200_30_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_200_30_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_200_50_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 399319,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_200_50_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_200_50_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_200_6_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 393511,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_200_6_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_200_6_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_300_16_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 380134,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_300_16_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_300_16_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_300_1_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 368936,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_300_1_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_300_1_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_300_2_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 367791,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_300_2_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_300_2_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_300_30_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 405667,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_300_30_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_300_30_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_300_50_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 415472,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_300_50_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_300_50_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_300_6_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 365608,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_300_6_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_300_6_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/Breitbandatlas\/Verf_6_2_F_Group_II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 387630,
+		"inputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_6_2_F_Group_II.png",
+		"outputAbbreviatedPath": "\/data\/Breitbandatlas\/Verf_6_2_F_Group_II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/data\/technologie.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/data\/technologie.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/data\/technologie-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/visualization\/css\/bootstrap-theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/bootstrap-theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/visualization\/css\/bootstrap-theme.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/bootstrap-theme.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/visualization\/css\/bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/visualization\/css\/bootstrap.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/bootstrap.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/visualization\/css\/fonts.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/fonts.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/visualization\/css\/fonts.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/fonts.scss",
+		"outputAbbreviatedPath": "\/visualization\/css\/fonts.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/visualization\/css\/leaflet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/leaflet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/visualization\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/visualization\/css\/main.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/main.scss",
+		"outputAbbreviatedPath": "\/visualization\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/visualization\/css\/mesh.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/mesh.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/visualization\/css\/mesh.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/mesh.scss",
+		"outputAbbreviatedPath": "\/visualization\/css\/mesh.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/visualization\/css\/sidr.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/sidr.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/visualization\/css\/sidr.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/sidr.scss",
+		"outputAbbreviatedPath": "\/visualization\/css\/sidr.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/visualization\/css\/tsb.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/tsb.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/visualization\/css\/tsb.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/tsb.scss",
+		"outputAbbreviatedPath": "\/visualization\/css\/tsb.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/visualization\/css\/tsbicons.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/tsbicons.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/visualization\/css\/tsbicons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/css\/tsbicons.scss",
+		"outputAbbreviatedPath": "\/visualization\/css\/tsbicons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/visualization\/images\/airdata.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5223,
+		"inputAbbreviatedPath": "\/visualization\/images\/airdata.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/airdata.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/airdata@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11350,
+		"inputAbbreviatedPath": "\/visualization\/images\/airdata@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/airdata@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/airdata@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8785,
+		"inputAbbreviatedPath": "\/visualization\/images\/airdata@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/airdata@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/airdata_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4149,
+		"inputAbbreviatedPath": "\/visualization\/images\/airdata_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/airdata_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/beberlin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6136,
+		"inputAbbreviatedPath": "\/visualization\/images\/beberlin.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/beberlin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/beberlin@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13280,
+		"inputAbbreviatedPath": "\/visualization\/images\/beberlin@2x.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/beberlin@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/brain.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4699,
+		"inputAbbreviatedPath": "\/visualization\/images\/brain.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/brain.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/brain@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9808,
+		"inputAbbreviatedPath": "\/visualization\/images\/brain@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/brain@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/btn_network.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1545,
+		"inputAbbreviatedPath": "\/visualization\/images\/btn_network.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/btn_network.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/btn_network@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2349,
+		"inputAbbreviatedPath": "\/visualization\/images\/btn_network@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/btn_network@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/cable.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1991,
+		"inputAbbreviatedPath": "\/visualization\/images\/cable.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/cable.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/cable@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3160,
+		"inputAbbreviatedPath": "\/visualization\/images\/cable@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/cable@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/chrispie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2273,
+		"inputAbbreviatedPath": "\/visualization\/images\/chrispie.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/chrispie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/chrispie.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2982,
+		"inputAbbreviatedPath": "\/visualization\/images\/chrispie.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/chrispie.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/chrispie@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3791,
+		"inputAbbreviatedPath": "\/visualization\/images\/chrispie@2x.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/chrispie@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/chrispie@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5121,
+		"inputAbbreviatedPath": "\/visualization\/images\/chrispie@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/chrispie@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/CRSP.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1691,
+		"inputAbbreviatedPath": "\/visualization\/images\/CRSP.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/CRSP.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/CRSP@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3589,
+		"inputAbbreviatedPath": "\/visualization\/images\/CRSP@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/CRSP@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/data_brain.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10148,
+		"inputAbbreviatedPath": "\/visualization\/images\/data_brain.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/data_brain.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/data_conversion.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130232,
+		"inputAbbreviatedPath": "\/visualization\/images\/data_conversion.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/data_conversion.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/data_conversion_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64854,
+		"inputAbbreviatedPath": "\/visualization\/images\/data_conversion_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/data_conversion_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/data_github.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4238,
+		"inputAbbreviatedPath": "\/visualization\/images\/data_github.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/data_github.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/data_map.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15057,
+		"inputAbbreviatedPath": "\/visualization\/images\/data_map.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/data_map.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/data_ministerium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6595,
+		"inputAbbreviatedPath": "\/visualization\/images\/data_ministerium.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/data_ministerium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/data_social.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15011,
+		"inputAbbreviatedPath": "\/visualization\/images\/data_social.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/data_social.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/deutschetelekabel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3326,
+		"inputAbbreviatedPath": "\/visualization\/images\/deutschetelekabel.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/deutschetelekabel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/deutschetelekabel@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7575,
+		"inputAbbreviatedPath": "\/visualization\/images\/deutschetelekabel@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/deutschetelekabel@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/deutschetelekabel@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6418,
+		"inputAbbreviatedPath": "\/visualization\/images\/deutschetelekabel@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/deutschetelekabel@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/deutschetelekabel_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2919,
+		"inputAbbreviatedPath": "\/visualization\/images\/deutschetelekabel_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/deutschetelekabel_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/dnsnet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3758,
+		"inputAbbreviatedPath": "\/visualization\/images\/dnsnet.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/dnsnet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/dnsnet@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8457,
+		"inputAbbreviatedPath": "\/visualization\/images\/dnsnet@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/dnsnet@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/dnsnet@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6208,
+		"inputAbbreviatedPath": "\/visualization\/images\/dnsnet@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/dnsnet@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/dnsnet_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3034,
+		"inputAbbreviatedPath": "\/visualization\/images\/dnsnet_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/dnsnet_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/efre.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6362,
+		"inputAbbreviatedPath": "\/visualization\/images\/efre.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/efre.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/efre@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14578,
+		"inputAbbreviatedPath": "\/visualization\/images\/efre@2x.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/efre@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/eplus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2230,
+		"inputAbbreviatedPath": "\/visualization\/images\/eplus.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/eplus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/eplus@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3532,
+		"inputAbbreviatedPath": "\/visualization\/images\/eplus@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/eplus@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/eplus@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3545,
+		"inputAbbreviatedPath": "\/visualization\/images\/eplus@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/eplus@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/eplus_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2201,
+		"inputAbbreviatedPath": "\/visualization\/images\/eplus_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/eplus_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/eu.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3328,
+		"inputAbbreviatedPath": "\/visualization\/images\/eu.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/eu.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/eu@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6078,
+		"inputAbbreviatedPath": "\/visualization\/images\/eu@2x.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/eu@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/eusanet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3438,
+		"inputAbbreviatedPath": "\/visualization\/images\/eusanet.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/eusanet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/eusanet_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3210,
+		"inputAbbreviatedPath": "\/visualization\/images\/eusanet_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/eusanet_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/ewe.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2340,
+		"inputAbbreviatedPath": "\/visualization\/images\/ewe.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/ewe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/ewe@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4019,
+		"inputAbbreviatedPath": "\/visualization\/images\/ewe@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/ewe@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/ewe@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3991,
+		"inputAbbreviatedPath": "\/visualization\/images\/ewe@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/ewe@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/ewe_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2319,
+		"inputAbbreviatedPath": "\/visualization\/images\/ewe_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/ewe_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/filiago.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8137,
+		"inputAbbreviatedPath": "\/visualization\/images\/filiago.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/filiago.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/filiago_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5604,
+		"inputAbbreviatedPath": "\/visualization\/images\/filiago_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/filiago_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 193586,
+		"inputAbbreviatedPath": "\/visualization\/images\/header.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15194,
+		"inputAbbreviatedPath": "\/visualization\/images\/icon.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/icon@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50585,
+		"inputAbbreviatedPath": "\/visualization\/images\/icon@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/icon@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/interactive.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1955,
+		"inputAbbreviatedPath": "\/visualization\/images\/interactive.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/interactive.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/interactive@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3185,
+		"inputAbbreviatedPath": "\/visualization\/images\/interactive@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/interactive@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/investitionsbank.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5827,
+		"inputAbbreviatedPath": "\/visualization\/images\/investitionsbank.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/investitionsbank.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/investitionsbank@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11849,
+		"inputAbbreviatedPath": "\/visualization\/images\/investitionsbank@2x.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/investitionsbank@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/map_close.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1073,
+		"inputAbbreviatedPath": "\/visualization\/images\/map_close.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/map_close.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/map_close@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1483,
+		"inputAbbreviatedPath": "\/visualization\/images\/map_close@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/map_close@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/nogl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200627,
+		"inputAbbreviatedPath": "\/visualization\/images\/nogl.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/nogl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/nogl_mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70208,
+		"inputAbbreviatedPath": "\/visualization\/images\/nogl_mobile.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/nogl_mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/o2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1471,
+		"inputAbbreviatedPath": "\/visualization\/images\/o2.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/o2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/o2@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2039,
+		"inputAbbreviatedPath": "\/visualization\/images\/o2@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/o2@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/o2@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2040,
+		"inputAbbreviatedPath": "\/visualization\/images\/o2@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/o2@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/o2_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1471,
+		"inputAbbreviatedPath": "\/visualization\/images\/o2_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/o2_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/pattern.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2654,
+		"inputAbbreviatedPath": "\/visualization\/images\/pattern.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/pattern.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/pause.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1091,
+		"inputAbbreviatedPath": "\/visualization\/images\/pause.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/pause.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/pause@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1351,
+		"inputAbbreviatedPath": "\/visualization\/images\/pause@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/pause@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/play.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1343,
+		"inputAbbreviatedPath": "\/visualization\/images\/play.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/play.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/play@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1690,
+		"inputAbbreviatedPath": "\/visualization\/images\/play@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/play@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/primacom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2973,
+		"inputAbbreviatedPath": "\/visualization\/images\/primacom.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/primacom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/primacom@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7681,
+		"inputAbbreviatedPath": "\/visualization\/images\/primacom@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/primacom@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/primacom@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5053,
+		"inputAbbreviatedPath": "\/visualization\/images\/primacom@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/primacom@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/primacom_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2345,
+		"inputAbbreviatedPath": "\/visualization\/images\/primacom_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/primacom_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/pulse.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1303,
+		"inputAbbreviatedPath": "\/visualization\/images\/pulse.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/pulse.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/pulse@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1731,
+		"inputAbbreviatedPath": "\/visualization\/images\/pulse@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/pulse@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/pulse_background_lg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124161,
+		"inputAbbreviatedPath": "\/visualization\/images\/pulse_background_lg.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/pulse_background_lg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/rft.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5349,
+		"inputAbbreviatedPath": "\/visualization\/images\/rft.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/rft.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/rft@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16087,
+		"inputAbbreviatedPath": "\/visualization\/images\/rft@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/rft@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/rft@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9356,
+		"inputAbbreviatedPath": "\/visualization\/images\/rft@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/rft@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/rft_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3735,
+		"inputAbbreviatedPath": "\/visualization\/images\/rft_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/rft_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/satellite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2811,
+		"inputAbbreviatedPath": "\/visualization\/images\/satellite.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/satellite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/satellite@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4766,
+		"inputAbbreviatedPath": "\/visualization\/images\/satellite@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/satellite@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/satinternet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5642,
+		"inputAbbreviatedPath": "\/visualization\/images\/satinternet.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/satinternet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/satinternet_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5320,
+		"inputAbbreviatedPath": "\/visualization\/images\/satinternet_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/satinternet_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/skydsl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3734,
+		"inputAbbreviatedPath": "\/visualization\/images\/skydsl.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/skydsl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/skydsl_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3708,
+		"inputAbbreviatedPath": "\/visualization\/images\/skydsl_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/skydsl_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/stardsl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4664,
+		"inputAbbreviatedPath": "\/visualization\/images\/stardsl.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/stardsl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/stardsl_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4341,
+		"inputAbbreviatedPath": "\/visualization\/images\/stardsl_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/stardsl_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/swap.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5284,
+		"inputAbbreviatedPath": "\/visualization\/images\/swap.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/swap.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/swap@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15402,
+		"inputAbbreviatedPath": "\/visualization\/images\/swap@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/swap@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/swap@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8522,
+		"inputAbbreviatedPath": "\/visualization\/images\/swap@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/swap@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/swap_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3588,
+		"inputAbbreviatedPath": "\/visualization\/images\/swap_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/swap_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/telecolumbus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2878,
+		"inputAbbreviatedPath": "\/visualization\/images\/telecolumbus.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/telecolumbus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/telecolumbus@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5619,
+		"inputAbbreviatedPath": "\/visualization\/images\/telecolumbus@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/telecolumbus@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/telecolumbus@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4087,
+		"inputAbbreviatedPath": "\/visualization\/images\/telecolumbus@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/telecolumbus@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/telecolumbus_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2321,
+		"inputAbbreviatedPath": "\/visualization\/images\/telecolumbus_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/telecolumbus_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/telekom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1521,
+		"inputAbbreviatedPath": "\/visualization\/images\/telekom.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/telekom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/telekom@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2066,
+		"inputAbbreviatedPath": "\/visualization\/images\/telekom@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/telekom@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/telekom@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2067,
+		"inputAbbreviatedPath": "\/visualization\/images\/telekom@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/telekom@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/telekom_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1521,
+		"inputAbbreviatedPath": "\/visualization\/images\/telekom_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/telekom_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/tooway_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4444,
+		"inputAbbreviatedPath": "\/visualization\/images\/tooway_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/tooway_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/tsb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9968,
+		"inputAbbreviatedPath": "\/visualization\/images\/tsb.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/tsb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/tsb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8709,
+		"inputAbbreviatedPath": "\/visualization\/images\/tsb.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/tsb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/tsb@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19673,
+		"inputAbbreviatedPath": "\/visualization\/images\/tsb@2x.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/tsb@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/tsb@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18299,
+		"inputAbbreviatedPath": "\/visualization\/images\/tsb@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/tsb@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/versatel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3377,
+		"inputAbbreviatedPath": "\/visualization\/images\/versatel.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/versatel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/versatel@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9230,
+		"inputAbbreviatedPath": "\/visualization\/images\/versatel@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/versatel@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/versatel@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5305,
+		"inputAbbreviatedPath": "\/visualization\/images\/versatel@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/versatel@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/versatel_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2501,
+		"inputAbbreviatedPath": "\/visualization\/images\/versatel_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/versatel_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/vislab.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3251,
+		"inputAbbreviatedPath": "\/visualization\/images\/vislab.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/vislab.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/vislab.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2145,
+		"inputAbbreviatedPath": "\/visualization\/images\/vislab.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/vislab.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/vislab@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6606,
+		"inputAbbreviatedPath": "\/visualization\/images\/vislab@2x.jpg",
+		"outputAbbreviatedPath": "\/visualization\/images\/vislab@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/vislab@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3497,
+		"inputAbbreviatedPath": "\/visualization\/images\/vislab@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/vislab@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/vodafone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5361,
+		"inputAbbreviatedPath": "\/visualization\/images\/vodafone.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/vodafone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/vodafone@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12199,
+		"inputAbbreviatedPath": "\/visualization\/images\/vodafone@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/vodafone@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/vodafone@2x_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8952,
+		"inputAbbreviatedPath": "\/visualization\/images\/vodafone@2x_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/vodafone@2x_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/vodafone_bw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4114,
+		"inputAbbreviatedPath": "\/visualization\/images\/vodafone_bw.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/vodafone_bw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/wireless.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3873,
+		"inputAbbreviatedPath": "\/visualization\/images\/wireless.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/wireless.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/images\/wireless@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7281,
+		"inputAbbreviatedPath": "\/visualization\/images\/wireless@2x.png",
+		"outputAbbreviatedPath": "\/visualization\/images\/wireless@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/visualization\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/visualization\/js\/bootstrap.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/bootstrap.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/bootstrap-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/bootstrap.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/breitband.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/breitband.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/breitband-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/breitband.mesh.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/breitband.mesh.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/breitband.mesh-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/canvas-toBlob.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/canvas-toBlob.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/canvas-toBlob-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/d3.company.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/d3.company.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/d3.company-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/d3.compare.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/d3.compare.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/d3.compare-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/d3.minimap.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/d3.minimap.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/d3.minimap-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/d3.pulse.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/d3.pulse.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/d3.pulse-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/d3.technologie.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/d3.technologie.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/d3.technologie-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/d3.tooltip.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/d3.tooltip.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/d3.tooltip-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/d3.v3.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/d3.v3.min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/d3.v3.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/FileSaver.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/FileSaver.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/FileSaver-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/Google.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/Google.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/Google-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/jquery-1.11.3.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/jquery-1.11.3.min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/jquery-1.11.3.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/jquery.easing.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/jquery.easing.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/jquery.easing-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/jquery.sidr.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/jquery.sidr.min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/jquery.sidr.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/leaflet.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/leaflet.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/leaflet-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/Leaflet.Sleep.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/Leaflet.Sleep.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/Leaflet.Sleep-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/main.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/map.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/map.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/map-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/breitband-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/breitband-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/breitband-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/breitband.mesh-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/breitband.mesh-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/breitband.mesh-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/d3.company-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/d3.company-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/d3.company-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/d3.compare-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/d3.compare-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/d3.compare-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/d3.minimap-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/d3.minimap-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/d3.minimap-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/d3.pulse-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/d3.pulse-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/d3.pulse-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/d3.technologie-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/d3.technologie-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/d3.technologie-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/d3.tooltip-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/d3.tooltip-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/d3.tooltip-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/Google-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/Google-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/Google-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/jquery.easing-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/jquery.easing-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/jquery.easing-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/Leaflet.Sleep-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/Leaflet.Sleep-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/Leaflet.Sleep-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/map-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/map-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/map-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/min\/threeD-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/min\/threeD-min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/min\/threeD-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/screenfull.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/screenfull.min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/screenfull.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/d3-threeD.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/d3-threeD.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/min\/d3-threeD-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/Detector.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/Detector.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/min\/Detector-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/postprocessing\/AdaptiveToneMappingPass.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/AdaptiveToneMappingPass.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/min\/AdaptiveToneMappingPass-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/postprocessing\/BloomPass.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/BloomPass.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/min\/BloomPass-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/postprocessing\/BokehPass.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/BokehPass.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/min\/BokehPass-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/postprocessing\/DotScreenPass.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/DotScreenPass.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/min\/DotScreenPass-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/postprocessing\/EffectComposer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/EffectComposer.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/min\/EffectComposer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/postprocessing\/FilmPass.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/FilmPass.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/min\/FilmPass-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/postprocessing\/GlitchPass.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/GlitchPass.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/min\/GlitchPass-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/postprocessing\/MaskPass.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/MaskPass.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/min\/MaskPass-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/postprocessing\/RenderPass.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/RenderPass.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/min\/RenderPass-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/postprocessing\/SavePass.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/SavePass.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/min\/SavePass-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/postprocessing\/ShaderPass.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/ShaderPass.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/min\/ShaderPass-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/postprocessing\/TexturePass.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/TexturePass.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/postprocessing\/min\/TexturePass-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/renderers\/CanvasRenderer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/CanvasRenderer.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/min\/CanvasRenderer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/renderers\/CSS2DRenderer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/CSS2DRenderer.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/min\/CSS2DRenderer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/renderers\/CSS3DRenderer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/CSS3DRenderer.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/min\/CSS3DRenderer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/renderers\/CSS3DStereoRenderer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/CSS3DStereoRenderer.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/min\/CSS3DStereoRenderer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/renderers\/Projector.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/Projector.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/min\/Projector-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/renderers\/RaytracingRenderer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/RaytracingRenderer.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/min\/RaytracingRenderer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/renderers\/SoftwareRenderer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/SoftwareRenderer.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/min\/SoftwareRenderer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/renderers\/SVGRenderer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/SVGRenderer.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/renderers\/min\/SVGRenderer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/BasicShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/BasicShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/BasicShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/BleachBypassShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/BleachBypassShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/BleachBypassShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/BlendShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/BlendShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/BlendShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/BokehShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/BokehShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/BokehShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/BokehShader2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/BokehShader2.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/BokehShader2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/BrightnessContrastShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/BrightnessContrastShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/BrightnessContrastShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/ColorCorrectionShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/ColorCorrectionShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/ColorCorrectionShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/ColorifyShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/ColorifyShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/ColorifyShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/ConvolutionShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/ConvolutionShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/ConvolutionShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/CopyShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/CopyShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/CopyShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/DigitalGlitch.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/DigitalGlitch.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/DigitalGlitch-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/DOFMipMapShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/DOFMipMapShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/DOFMipMapShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/DotScreenShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/DotScreenShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/DotScreenShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/EdgeShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/EdgeShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/EdgeShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/EdgeShader2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/EdgeShader2.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/EdgeShader2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/FilmShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/FilmShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/FilmShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/FocusShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/FocusShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/FocusShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/FresnelShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/FresnelShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/FresnelShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/FXAAShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/FXAAShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/FXAAShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/GammaCorrectionShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/GammaCorrectionShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/GammaCorrectionShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/HorizontalBlurShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/HorizontalBlurShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/HorizontalBlurShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/HorizontalTiltShiftShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/HorizontalTiltShiftShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/HorizontalTiltShiftShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/HueSaturationShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/HueSaturationShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/HueSaturationShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/KaleidoShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/KaleidoShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/KaleidoShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/LuminosityShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/LuminosityShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/LuminosityShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/MirrorShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/MirrorShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/MirrorShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/NormalMapShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/NormalMapShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/NormalMapShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/OceanShaders.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/OceanShaders.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/OceanShaders-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/ParallaxShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/ParallaxShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/ParallaxShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/RGBShiftShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/RGBShiftShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/RGBShiftShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/SepiaShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/SepiaShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/SepiaShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/SSAOShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/SSAOShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/SSAOShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/TechnicolorShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/TechnicolorShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/TechnicolorShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/ToneMapShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/ToneMapShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/ToneMapShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/TriangleBlurShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/TriangleBlurShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/TriangleBlurShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/UnpackDepthRGBAShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/UnpackDepthRGBAShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/UnpackDepthRGBAShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/VerticalBlurShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/VerticalBlurShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/VerticalBlurShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/VerticalTiltShiftShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/VerticalTiltShiftShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/VerticalTiltShiftShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/shaders\/VignetteShader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/VignetteShader.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/shaders\/min\/VignetteShader-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/stats.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/stats.min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/min\/stats.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/three-text2d.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/three-text2d.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/min\/three-text2d-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/three.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/three.min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/min\/three.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/three.old.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/three.old.min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/min\/three.old.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/THREEx.GeometryUtils.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/THREEx.GeometryUtils.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/min\/THREEx.GeometryUtils-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/TrackballControls.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/TrackballControls.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/min\/TrackballControls-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/three\/tween.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/three\/tween.min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/three\/min\/tween.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/threeD.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/threeD.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/threeD-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/js\/topojson.v1.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/js\/topojson.v1.min.js",
+		"outputAbbreviatedPath": "\/visualization\/js\/min\/topojson.v1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/visualization\/mesh.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/visualization\/mesh.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 791651,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-1.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.83067e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-10.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-10.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-11.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.06775e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-11.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-11.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 599872,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-12.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-13.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 889112,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-13.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-13.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-14.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 975555,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-14.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-14.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-15.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.09542e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-15.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-15.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.49921e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-16.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-17.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.00038e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-17.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-17.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.00348e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-2.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 732201,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-3.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 726656,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-4.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.55752e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-5.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.11194e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-6.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.82e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-7.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.4831e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-8.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-16-9-9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.0015e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-9.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-16-9-9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 797411,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-1.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.83418e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-10.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-10.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-11.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.48371e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-11.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-11.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 574176,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-12.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-13.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 857246,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-13.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-13.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-14.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.09828e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-14.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-14.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-15.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.36343e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-15.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-15.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.03153e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-16.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-17.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.88783e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-17.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-17.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.01123e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-2.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 740159,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-3.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 732796,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-4.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.00216e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-5.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.13078e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-6.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.31365e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-7.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.52392e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-8.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/dekstop\/breitband-desktop-4-3-9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.96185e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-9.png",
+		"outputAbbreviatedPath": "\/wallpapers\/dekstop\/breitband-desktop-4-3-9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 485828,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-1.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 896318,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-10.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-10.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-11.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.09838e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-11.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-11.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 331312,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-12.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-13.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 494524,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-13.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-13.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-14.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 483092,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-14.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-14.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-15.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.65823e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-15.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-15.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 806117,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-16.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-17.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.22134e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-17.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-17.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 653244,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-2.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 739891,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-3.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 729202,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-4.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.38811e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-5.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 995448,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-6.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.12735e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-7.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 819211,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-8.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wallpapers\/mobile\/breitband-mobile-9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.16724e+06,
+		"inputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-9.png",
+		"outputAbbreviatedPath": "\/wallpapers\/mobile\/breitband-mobile-9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Sebastian Meier",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "breitband@tsb@github",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "compass_brown"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
+	"markdownEnableFootnotes": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 10,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputFormat": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptPreserveConstEnums": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}

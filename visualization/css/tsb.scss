@@ -3,7 +3,7 @@ body, html{
 	width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 /*
@@ -176,7 +176,7 @@ h3{
 
 .minimap text{
 	font-size:18px;
-	font-family: "ClanOT-Medium";	
+	font-family: "ClanOT-Medium";
 	font-weight:normal;
 }
 
@@ -787,7 +787,7 @@ path.trendarea.instagram{
 	font-weight: bold;
 	text-shadow: none;*/
     margin-right: 7px;
-    margin: 2px; 
+    margin: 2px;
     float: left;
     width: 20px;
     height: 20px;
@@ -1166,7 +1166,7 @@ ul.legend span span{
 	list-style:none;
 	padding:0;
 	margin:0;
-} 
+}
 
 #close ul.logolist{
 	padding-top:40px;
@@ -1305,7 +1305,7 @@ ul.legend span span{
 
 /******************** Highres Retina Images *******************/
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 
 	#map_info.company-help{
 		background-image:url('../images/map_close@2x.png');
@@ -1559,13 +1559,6 @@ ul.legend span span{
 		height:auto;
 		max-width:360px;
 	}
-	.license img{
-		margin-bottom:20px;
-		max-width:100%;
-		width:auto;
-		height:auto;
-		float:none;
-	}
 }
 
 /******************** THREEJS *******************/
@@ -1674,11 +1667,6 @@ ul.legend span span{
 }
 
 @media (min-width: 768px) {
-	#background .subrow .license img{
-		float:right;
-		margin-bottom:0;
-	}
-
 	#map-intro .middle-col,
 	#map-intro .scnd-col{
 		text-align: right;
@@ -1778,4 +1766,91 @@ ul.legend span span{
 	.carousel .item {
 		height: 350px;
 	}
+}
+
+/*----- SPEED -----*/
+
+#speeddesc{
+	padding-top:100px;
+}
+
+#speeddesc-container{
+	margin-top:20px;
+	width:100%;
+	float:left;
+	height:350px;
+}
+
+#speeddesc-container .fullcircle{
+	fill:rgba(30,55,145,0.7);
+	stroke:transparent;
+	stroke-width:4px;
+}
+
+#speeddesc-container .outercircle-1{
+	stroke:rgba(30,55,145,0.7);
+	fill:transparent;
+	stroke-width:3px;
+}
+
+#speeddesc-container .outercircle-2{
+	stroke:rgba(30,55,145,0.7);
+	fill:transparent;
+	stroke-width:2px;
+}
+
+#speeddesc-container .active .fullcircle{
+	fill:rgba(30,55,145,1);
+}
+
+#speeddesc-container .active .outercircle-1{
+	stroke:rgba(30,55,145,1);
+}
+
+#speeddesc-container .active .outercircle-2{
+	stroke:rgba(30,55,145,1);
+}
+
+#speeddesc-container .clickcircle{
+	fill:transparent;
+	stroke:transparent;
+	cursor: pointer;
+}
+
+#speeddesc-overlay{
+	width:100%;
+	height:350px;
+	background:rgba(255,255,255,0.95);
+	float:left;
+	margin-top:-350px;
+	display:none;
+}
+
+#speeddesc-overlay .close{
+	float:right;
+	margin:20px 20px 20px -20px;
+	cursor: pointer;
+	opacity: 1;
+}
+
+#speeddesc-overlay .close img{
+	width:20px;
+	height:auto;
+}
+
+#speeddesc-overlay>img{
+	width:120px;
+	height:auto;
+	display:block;
+	margin:0 auto;
+}
+
+#speeddesc-overlay .inner{
+	text-align:left;
+	max-width:300px;
+	margin:20px auto;
+}
+
+#speeddesc-overlay .inner h4{
+	font-family: "ClanOT-Medium";
 }
