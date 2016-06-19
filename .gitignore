@@ -24,3 +24,5 @@ visualization/fonts/clanot-medium-webfont.svg
 visualization/fonts/glyphicons-halflings-regular.svg
 
 visualization/fonts/TSB.svg
+
+*.codekit
