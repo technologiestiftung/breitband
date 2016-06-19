@@ -26,3 +26,4 @@ visualization/fonts/glyphicons-halflings-regular.svg
 visualization/fonts/TSB.svg
 
 *.codekit
+data/TÜV-Breitbandmessungen/all.csv
