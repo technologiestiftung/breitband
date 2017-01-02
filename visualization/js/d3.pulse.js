@@ -246,7 +246,7 @@ function d3_pulse(){
 				})
 				.attr('transform', 'translate('+(line_width/2)+','+(line_height/2)+')');
 
-			d3.json('http://tsb.sebastianmeier.eu/static/info.json', function(err, info_data){
+			d3.json('https://vislab.lupus.uberspace.de/nodejs/tsb/static/info.json', function(err, info_data){
 				if(err){ return console.error(err); }
 				
 				for(var s in species){
