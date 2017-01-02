@@ -54,7 +54,7 @@ function stateMap(){
 			$('.leaflet-google-layer:last').css('opacity',0);
 		});
 
-		var speedmap = new L.TileLayer('http://tiles.sebastianmeier.eu/v2/tiles/fullimage/{z}/{x}/{y}.png').addTo(map);
+		var speedmap = new L.TileLayer('https://vislab.lupus.uberspace.de/nodejs/tiles/v2/tiles/fullimage/{z}/{x}/{y}.png').addTo(map);
 
 		var styles = [{featureType:"all",elementType: "geometry",stylers: [{ visibility: "off" }]},{featureType: "transit.line",elementType: "labels",stylers: [{ visibility: "off" }]},{featureType: "transit.station",elementType: "labels",stylers: [{ visibility: "off" }]},{featureType: "poi",elementType: "labels",stylers: [{ visibility: "off" }]},{"featureType": "road.highway","elementType": "labels","stylers": [{ "visibility": "off" }]},{featureType:"all",elementType: "labels.text.fill",stylers: [{ color: "#ffffff" }]},{featureType:"all",elementType: "labels.text.stroke",stylers: [{ color: "#111111" }]}];
 
