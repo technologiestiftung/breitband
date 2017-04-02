@@ -1378,7 +1378,7 @@ ul.legend span span{
 
 /******************** Map *******************/
 
-.leaflet-google-layer{
+.leaflet-google-layer, .leaflet-google-layer>div{
 	background-color:transparent !important;
 }
 
