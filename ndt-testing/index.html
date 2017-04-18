@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="UTF-8" />
+<title>Breitbandausbau Berlin</title>
+<!--[if lt IE 10]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="http://www.breitband-berlin.de/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://www.breitband-berlin.de/css/leaflet.css" />
+<link rel="stylesheet" href="./css/main.css" type="text/css" />
+<style>
+  
+  #spdtst{
+    overflow:hidden;
+  }
+
+  #spdtst-start{
+    border-radius: 3px;
+    border:2px solid rgb(30,55,145);
+    color:rgb(30,55,145);
+    padding:0 10px;
+    font-weight:bold;
+    font-size:14px;
+    background-color:rgba(30,55,145,0.1);
+    text-align: center;
+    width:150px;
+    display: block;
+    margin:5px 0 10px 0;
+    line-height: 35px;
+    font-family: "ClanOT-Medium";
+    font-weight: normal;
+  }
+
+  .image.image-speed{
+    width: 23px;
+    height: 25px;
+    background-size: 23px 25px;
+    background-image: url(./images/speed-icn.png);
+    display: inline-block;
+    margin:2px 5px -7px 0;
+  }
+
+  .image.image-speedex{
+    width: 99px;
+    height: 105px;
+    background-size: 99px 105px;
+    background-image: url(./images/speed-ex.gif);
+    display: block;
+    margin:2px 15px -7px 0;
+    float:left;
+  }
+
+  #spdtst-start:hover{
+    cursor: pointer;
+    color:#fff;
+    text-decoration: none;
+    background-color:rgba(30,55,145,1); 
+  }
+
+  #spdtst-start:hover .image.image-speed{
+    background-image: url(./images/speed-icn-white.png);
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    /* high res */
+  }
+
+  #spdtst-start.active, #spdtst-start.active:hover{
+    cursor: normal;
+    border-color:rgba(30,55,145,0.5);
+    background-color:rgba(30,55,145,0.1);
+    color:rgba(30,55,145,0.7);
+  }
+
+  #spdtst svg{
+    width:100%;
+    height:auto;
+    margin: 0 auto;
+    max-width:300px;
+  }
+
+  #spdtst path.trend{
+    fill:rgba(30,55,145,0.3);
+    stroke:rgb(30,55,145);
+  }
+
+  #spdtst circle.bg{
+    fill:rgba(0,0,0,0.1);
+  }
+
+  #spdtst circle.bg-circle{
+    fill:transparent;
+    stroke:rgba(0,0,0,0.3);
+    stroke-dasharray:1,4;
+  }
+
+  #spdtst circle.overlay{
+    fill:#fff;
+    stroke:rgb(30,55,145);
+  }
+
+  #spdtst line.startend{
+    stroke:#000;
+  }
+
+  #spdtst path.top-overlay{
+    fill:#fff;
+  }
+
+  #spdtst text.speed-label{
+    font-size:12px;
+  }
+
+  #spdtst line.ticks{
+    stroke:rgba(0,0,0,0.5);
+  }
+
+  #spdtst line.inner-ticks{
+    stroke:rgba(0,0,0,0.2);
+  }
+
+  #spdtst circle.avg{
+    fill:rgba(30,55,145,1);
+  }
+
+  #spdtst line.avg{
+    stroke:rgba(30,55,145,1);
+  }
+
+  #spdtst line.avg.inneravg{
+    stroke-width:2px;
+  }
+
+  #spdtst text.speed_live{ font-size:40px; font-weight:bold; }
+  #spdtst text.speed_type{ font-size:12px; font-weight:bold; text-transform: capitalize; }
+  #spdtst text.speed_speed{ font-size:12px; font-weight:bold; }
+
+  @-webkit-keyframes BLINK {
+    0%, 100%   { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  @-moz-keyframes BLINK {
+    0%, 100%   { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  @-o-keyframes BLINK {
+    0%, 100%   { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  @keyframes BLINK {
+    0%, 100%   { opacity: 0; }
+    50% { opacity: 1; }
+  }
+
+  #spdtst text.speed_live.waiting {
+    -webkit-animation: BLINK 1s infinite; /* Safari 4+ */
+    -moz-animation:    BLINK 1s infinite; /* Fx 5+ */
+    -o-animation:      BLINK 1s infinite; /* Opera 12+ */
+    animation:         BLINK 1s infinite; /* IE 10+, Fx 29+ */
+  }
+
+  #spdtst .live-test path{
+    stroke:rgba(230,0,50,1);
+    fill:rgba(230,0,50,0.5);
+  }
+
+  #spdtst .avg-text{
+    float:none;
+    width:auto;
+    max-width:300px;
+    border-top:1px solid rgb(30,55,145);
+    border-right:1px solid rgb(30,55,145);
+    padding:5px;
+    font-size:12px;
+    margin:-5px 0 0 0;
+  }
+
+  @media (max-width: 767px) {
+    #spdtst .avg-text span.visible-xs {
+      display: inline!important;
+    }
+  }
+
+  #spdtst .topscale{
+    opacity: 0.5;
+  }
+
+  .speed-ex-row{
+    padding-top:20px;
+  }
+
+  .speed-ex-row p{
+    max-width:300px;
+  }
+
+</style>
+<body>
+
+<section id="spdtst">
+  <div class="container">
+    <div class="row">
+      <div class="col col-xs-12 col-sm-4 col-lg-4">
+        <h3>Messen Sie Ihre Internetgeschwindikgeit</h3>
+        <p>
+          und sehen Sie, wie diese im Vergleich mit anderen Berliner Nutzer*innen ist. Zugleich werden Ihre Daten zu Forschungszwecken verwendet, um ein genaueres Bild des Internetverkehrs zu erhalten. Die Geschwindigkeit variiert im Tagesverlauf, d.h. ein genaueres Bild ergibt sich, wenn Sie zu unterschiedlichen Zeiten messen. 
+        </p>
+        <p class="small">
+          Für den Test werden anonymisierte Daten zu Forschungszwecken an das <a href="http://www.measurementlab.net/">Measurement Lab</a> gesendet, dort ausgewertet und als Open Data bereitgestellt. Weitere Informationen zu den AGB und zum Datenschutz <a href="https://www.measurementlab.net/privacy/">hier</a>.<br />
+        </p>
+        <p class="small">
+          Mit Klick auf „Test starten“ beginnen Sie die Kommunikation mit dem externen Server und stimmen der Weiterverwendung Ihrer Messdaten zu.
+        </p>
+        <a id="spdtst-start"><span class="image image-speed"></span>Test starten</a>
+      </div>
+      <div class="col col-xs-12 col-sm-8 col-lg-8">
+        <div class="row">
+          <div class="col col-xs-12 col-sm-6 col-lg-6" id="upload">
+          </div>
+          <div class="col col-xs-12 col-sm-6 col-lg-6" id="download">
+          </div>
+        </div>
+        <div class="row speed-ex-row">
+          <div class="col col-xs-12 col-sm-6 col-lg-6">
+            <p class="small"><span class="image image-speedex"></span> Der blaue Bereich zeigt den Anteil (%) der Nutzer*innen die eine bestimmte maximal Geschwindigkeit erreicht haben.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="text/javascript" src="http://www.breitband-berlin.de/js/min/breitband-min.js"></script>
+<script type="text/javascript" src="./lib/NDTPlugin-min.js"></script>
+<script>
+
+function speedTest(){
+
+  var svgs = {}, 
+    types =  ["upload","download"],
+    max = {
+      upload:6,
+      download:30
+    },
+    labels = {
+      upload:[0,1,2,3,4,5,6],
+      download:[0,5,10,15,20,25,30]
+    },
+    fifties = {
+      upload:false,
+      download:false
+    },
+    short = {
+      upload:'up',
+      download:'down'
+    },
+    width = 300,
+    height = 300,
+    inner = 70,
+    outer = 110,
+    start = Math.PI/180*-70,
+    end = Math.PI/180*251,
+    aStart = start + Math.PI/2,
+    aEnd = end + Math.PI/2,
+    circleLines = {},
+    scales = {},
+    polarScale = d3.scale.linear().domain([0,360]).range([start,end]),
+    donut = d3.svg.arc()
+      .innerRadius(inner-15)
+      .outerRadius(inner),
+    state = false,
+    ndt, interval,
+    testScale = {
+      upload : d3.scale.linear().range([aStart,aEnd]).domain([0,max.upload]),
+      download : d3.scale.linear().range([aStart,aEnd]).domain([0,max.download])
+    };
+
+  function speed(){}
+
+  speed.init = function () {
+    types.forEach(function(d,i){
+      //Build SVG
+      svgs[d] = d3.select('#'+d).append('svg')
+        .attr('height',width)
+        .attr('width',height)
+        .attr("viewBox", "0 0 "+width+" "+height)
+        .attr("preserveAspectRatio", "xMinYMin meet")
+        .append('g').attr('transform','translate('+(width/2)+','+(height/2)+')');
+
+       svgs[d].append('g').append('circle').attr('class','bg').attr('r',outer);
+
+      //Build ticks and their labels
+      svgs[d].append('g').selectAll('line').data(labels[d]).enter().append('line')
+        .attr('class', 'ticks')
+        .attr('x1', function(d,i){
+          return speed.polarX(inner-15, start+(end-start)/6*i);
+        })
+        .attr('x2', function(d,i){
+          return speed.polarX(outer+5, start+(end-start)/6*i);
+        })
+        .attr('y1', function(d,i){
+          return speed.polarY(inner-15, start+(end-start)/6*i);
+        })
+        .attr('y2', function(d,i){
+          return speed.polarY(outer+5, start+(end-start)/6*i);
+        });
+
+      svgs[d].append('g').selectAll('text').data(labels[d]).enter().append('text')
+        .attr('class','speed-label')
+        .attr('text-anchor', function(d){
+          return (d===0)?'start':'middle';
+        })
+        .attr('dx', function(d,i){
+          return speed.polarX(outer+15, start+(end-start)/6*i)-((d===0)?+5:0);
+        })
+        .attr('dy', function(d,i){
+          return speed.polarY(outer+15, start+(end-start)/6*i)+6;
+        })
+        .text(function(d){
+          return d+((d===0)?' Mbit/s':'');
+        });
+
+      //Build Background
+      var c = [];
+      for(var i = 1; i<4; i++){
+        c.push(inner + (outer-inner)/4*i);
+      }
+
+      svgs[d].append('g').selectAll('circle').data(c).enter().append('circle')
+        .attr('r', function(d){return d;})
+        .attr('class', 'bg-circle');
+
+    });
+    
+    d3.json('data.json', function (err, data){
+      if(err) console.log(err);
+
+      //the data is reduced to 360 items, 360 equals max-speed for type
+      types.forEach(function(d,i){
+        scales[d] = d3.scale.linear().domain([0, d3.max(data[d])]).range([inner, outer]);
+
+        circleLines[d] = d3.svg.line()
+          .x(function(dd,ii){
+            return speed.polarX(scales[d](dd), polarScale(ii));
+          })
+          .y(function(dd,ii){
+            return speed.polarY(scales[d](dd), polarScale(ii));
+          });
+
+        svgs[d].append('g').append('path').attr('class','trend').datum(data[d]).attr('d', circleLines[d]);
+
+        svgs[d].append('g').append('circle').attr('class','overlay').attr('r',inner);
+
+        svgs[d].append('g').append('path').attr('class','top-overlay').attr('d', function(){ 
+          return d3.svg.arc()
+            .innerRadius(inner-2)
+            .outerRadius(outer+2)
+            ({
+              startAngle:aEnd,
+              endAngle:(Math.PI*2)+aStart
+            });
+
+        });
+        
+        var c = [];
+        for(var i = 0; i<4; i+=3){
+          c.push(inner + (outer-inner)/3*i);
+        }
+
+        svgs[d].append('g').selectAll('circle').data(c).enter().append('circle')
+          .attr('r', function(d){return d;})
+          .attr('class', 'bg-circle');
+
+          svgs[d].append('g').selectAll('line').data([start,end]).enter().append('line')
+          .attr('class','startend')
+          .attr('x1', function(d){
+            return speed.polarX(inner,d);
+          })
+          .attr('x2', function(d){
+            return speed.polarX(outer,d);
+          })
+          .attr('y1', function(d){
+            return speed.polarY(inner,d);
+          })
+          .attr('y2', function(d){
+            return speed.polarY(outer,d);
+          });
+
+        svgs[d].append('g').selectAll('line').data(labels[d]).enter().append('line')
+          .attr('class', 'ticks inner-ticks')
+          .attr('x1', function(d,i){
+            return speed.polarX(inner-15, start+(end-start)/6*i);
+          })
+          .attr('x2', function(d,i){
+            return speed.polarX(inner, start+(end-start)/6*i);
+          })
+          .attr('y1', function(d,i){
+            return speed.polarY(inner-15, start+(end-start)/6*i);
+          })
+          .attr('y2', function(d,i){
+            return speed.polarY(inner, start+(end-start)/6*i);
+          });
+
+        //Top Scale
+        svgs[d].append('text').text('0%').attr('dy',15-inner).attr('class','speed-label topscale').attr('text-anchor','middle');
+        svgs[d].append('text').text('100%').attr('dy',-outer-10).attr('class','speed-label topscale').attr('text-anchor','middle');
+        svgs[d].append('line').attr('class','ticks topscale')
+          .attr('y1',-inner)
+          .attr('y2',-outer);
+        svgs[d].append('g').selectAll('line').data(Array(5)).enter().append('line').attr('class','ticks topscale')
+          .attr('x1',-3)
+          .attr('x2',3)
+          .attr('y1',function(d,i){ return -inner - i*(outer-inner)/4; })
+          .attr('y2',function(d,i){ return -inner - i*(outer-inner)/4; })
+          .style('opacity', function(d,i){
+            if(i===2){return 0;}else{return 0.5;}
+          });
+        svgs[d].append('rect').attr('y',-((outer-inner)/2+inner+5)).attr('x',-10).attr('width',20).attr('height',11).style('fill','#fff');
+        svgs[d].append('text').text('50%').attr('dy',5-((outer-inner)/2+inner)).attr('class','speed-label topscale').attr('text-anchor','middle');
+
+        //Speed Texts
+        svgs[d].append('text').attr('dy',15).attr('text-anchor','middle').attr('id','spdtst_'+d).attr('class','speed_live').text('0.00');
+        svgs[d].append('text').text(d).attr('text-anchor','middle').attr('dy',35).attr('class','speed_type');
+        svgs[d].append('text').text('Mbit/s').attr('text-anchor','middle').attr('dy',-25).attr('class','speed_speed');
+
+        //Finding the 50% marker position
+        data[d].forEach(function(dd,ii){
+          if(dd < data[d][0]/2 && !fifties[d]){
+            fifties[d] = ii;
+          }
+        });
+
+        var d2 = data[d][fifties[d]],
+          d1 =  data[d][fifties[d]-1];
+
+        fifties[d] = fifties[d]-1 + (d2-d1)/(d1 - data[d][0]/2);
+
+        //Avg Point & Line
+
+        svgs[d].append('g').append('circle').attr('class','avg').attr('r',3)
+          .attr('cx', speed.polarX(scales[d](data[d][0]/2), polarScale(fifties[d])))
+          .attr('cy', speed.polarY(scales[d](data[d][0]/2), polarScale(fifties[d])));
+
+        svgs[d].append('g').append('line').attr('class','avg inneravg').attr('r',3)
+          .attr('x1', speed.polarX(scales[d](data[d][0]/2), polarScale(fifties[d])))
+          .attr('y1', speed.polarY(scales[d](data[d][0]/2), polarScale(fifties[d])))
+          .attr('x2', speed.polarX(inner-15, polarScale(fifties[d])))
+          .attr('y2', speed.polarY(inner-15, polarScale(fifties[d])));
+
+
+        svgs[d].append('g').append('line').attr('class','avg')
+          .attr('x1', speed.polarX(scales[d](data[d][0]/2), polarScale(fifties[d])))
+          .attr('y1', speed.polarY(scales[d](data[d][0]/2), polarScale(fifties[d])))
+          .attr('x2', speed.polarX(scales[d](data[d][0]/2), polarScale(fifties[d])))
+          .attr('y2', height);
+
+        d3.select('#'+d).append('div').attr('class','avg-text').html(function(){
+          if(d==='upload'){
+            return 'Durchschnitt Berliner Speed-Test Nutzer*innen: '+(d.charAt(0).toUpperCase() + d.slice(1))+'-Geschwindigkeit <strong>'+(fifties[d]/360*max[d]).toFixed(2)+'&nbsp;Mbit/s</strong>';
+          }else{
+            return '<span class="visible-xs">Durchschnitt Berliner Speed-Test Nutzer*innen: </span>'+(d.charAt(0).toUpperCase() + d.slice(1))+'-Geschwindigkeit <strong>'+(fifties[d]/360*max[d]).toFixed(2)+'&nbsp;Mbit/s</strong>';
+          }
+        });
+
+      });
+
+      d3.select('#spdtst-start').on('click', function(){
+        if(!state){
+          state = true;
+
+          d3.select('#spdtst-start').text('Test läuft...').classed('active',true);
+
+          types.forEach(function(d){
+            //Resetting the numbers to be sure
+            svgs[d].select('.speed_live').text('0.00').classed('waiting',true);
+
+            //Removing old arcs
+            svgs[d].select('.live-test').remove();
+            var live = svgs[d].append('g').attr('class','live-test');
+
+            //Add new arc
+            live.append('path').datum({newEndAngle:aStart,newStartAngle:aStart,startAngle:aStart,endAngle:aStart}).attr('d', donut);
+
+          });
+
+          ndt = new NDTPlugin('./lib');
+
+          if(ndt.check()){
+            ndt.getServer(
+              function(success){
+                ndt.setServer(success);
+                ndt.run();
+                interval = setInterval(speed.reportStatus, 100);
+              },
+              function(error){
+                console.log('error', error);
+              }
+            );
+          }else{
+            console.log('sorry your browser does not support this')
+          }
+        }
+      });
+    });
+  };
+
+  speed.reportStatus = function () {
+    var status = ndt.getStatus();
+
+    types.forEach(function(d){
+      var spd = speed.cleanSpeed(status[short[d]], max[d]);
+      var txt = (spd<10)?spd.toFixed(2):spd.toFixed(1);
+      if(spd === max[d]){
+        if(d==="upload"){
+          txt = max[d].toFixed(1)+'+';
+        }else{
+          txt = max[d]+'+ ';
+        }
+      }
+      svgs[d].select('.speed_live').text(txt);
+      if(spd > 0){
+        svgs[d].select('.speed_live').classed('waiting',false);
+      }
+
+      svgs[d].select('.live-test path').datum(function(dd){
+        dd.newStartAngle = aStart;
+        dd.newEndAngle = testScale[d](spd);
+        return dd;
+      }).transition().duration(100).attrTween("d", speed.arcTween());
+    });
+
+    if(status.error.match(/completed/)){
+      clearInterval(interval);
+      state = false;
+      d3.select('#spdtst-start').html('<span class="image image-speed"></span>Erneut testen!').classed('active',false);
+    }
+  };
+
+  speed.polarX = function (radius, angle){
+    return radius * Math.cos(angle);
+  };
+
+  speed.polarY = function(radius, angle){
+    return radius * Math.sin(angle);
+  };
+
+  speed.cleanSpeed = function (s,limit) {
+    s = parseFloat(s);
+    if(isNaN(s)){s = 0;}
+    if(s<0){s = 0;}
+    if(s>limit){s = limit;}
+    return s;
+  };
+
+  //http://bl.ocks.org/mbostock/5100636
+  speed.arcTween = function () {
+    return function(d) {
+      var interpolateStart = d3.interpolate(d.startAngle, d.newStartAngle);
+      var interpolateEnd = d3.interpolate(d.endAngle, d.newEndAngle);
+      return function(t) {
+        d.endAngle = interpolateEnd(t);
+        d.startAngle = interpolateStart(t);
+        return donut(d);
+      };
+    };
+  };
+
+  return speed;
+}
+
+var speed_test = speedTest();
+speed_test.init();
+
+
+</script>
+</body>
+</html>

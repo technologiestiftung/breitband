@@ -1,0 +1,3 @@
+client_country,location_key,client_continent,client_region,client_country_code,client_city,client_continent_code,client_region_code,type,id,count,retransmit_avg,download_speed_mbps_median,upload_speed_mbps_median,hour,date,rtt_avg
+Germany,eude16,Europe,Berlin,DE,,EU,16,region,eude16,71606,0.01,11.631,1.731,,2016,61.783
+Germany,eude16,Europe,Berlin,DE,,EU,16,region,eude16,4330,0.015,11.126,2.278,,2017,65.133
