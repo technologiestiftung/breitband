@@ -1,241 +1,5 @@
-<!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta charset="UTF-8" />
-<title>Breitbandausbau Berlin</title>
-<!--[if lt IE 10]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-<link rel="stylesheet" href="http://www.breitband-berlin.de/css/bootstrap.min.css">
-<link rel="stylesheet" href="http://www.breitband-berlin.de/css/leaflet.css" />
-<link rel="stylesheet" href="./css/main.css" type="text/css" />
-<style>
-  
-  #spdtst{
-    overflow:hidden;
-  }
-
-  #spdtst-start{
-    border-radius: 3px;
-    border:2px solid rgb(30,55,145);
-    color:rgb(30,55,145);
-    padding:0 10px;
-    font-weight:bold;
-    font-size:14px;
-    background-color:rgba(30,55,145,0.1);
-    text-align: center;
-    width:150px;
-    display: block;
-    margin:5px 0 10px 0;
-    line-height: 35px;
-    font-family: "ClanOT-Medium";
-    font-weight: normal;
-  }
-
-  .image.image-speed{
-    width: 23px;
-    height: 25px;
-    background-size: 23px 25px;
-    background-image: url(./images/speed-icn.png);
-    display: inline-block;
-    margin:2px 5px -7px 0;
-  }
-
-  .image.image-speedex{
-    width: 99px;
-    height: 105px;
-    background-size: 99px 105px;
-    background-image: url(./images/speed-ex.gif);
-    display: block;
-    margin:2px 15px -7px 0;
-    float:left;
-  }
-
-  #spdtst-start:hover{
-    cursor: pointer;
-    color:#fff;
-    text-decoration: none;
-    background-color:rgba(30,55,145,1); 
-  }
-
-  #spdtst-start:hover .image.image-speed{
-    background-image: url(./images/speed-icn-white.png);
-  }
-
-  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-    /* high res */
-  }
-
-  #spdtst-start.active, #spdtst-start.active:hover{
-    cursor: normal;
-    border-color:rgba(30,55,145,0.5);
-    background-color:rgba(30,55,145,0.1);
-    color:rgba(30,55,145,0.7);
-  }
-
-  #spdtst svg{
-    width:100%;
-    height:auto;
-    margin: 0 auto;
-    max-width:300px;
-  }
-
-  #spdtst path.trend{
-    fill:rgba(30,55,145,0.3);
-    stroke:rgb(30,55,145);
-  }
-
-  #spdtst circle.bg{
-    fill:rgba(0,0,0,0.1);
-  }
-
-  #spdtst circle.bg-circle{
-    fill:transparent;
-    stroke:rgba(0,0,0,0.3);
-    stroke-dasharray:1,4;
-  }
-
-  #spdtst circle.overlay{
-    fill:#fff;
-    stroke:rgb(30,55,145);
-  }
-
-  #spdtst line.startend{
-    stroke:#000;
-  }
-
-  #spdtst path.top-overlay{
-    fill:#fff;
-  }
-
-  #spdtst text.speed-label{
-    font-size:12px;
-  }
-
-  #spdtst line.ticks{
-    stroke:rgba(0,0,0,0.5);
-  }
-
-  #spdtst line.inner-ticks{
-    stroke:rgba(0,0,0,0.2);
-  }
-
-  #spdtst circle.avg{
-    fill:rgba(30,55,145,1);
-  }
-
-  #spdtst line.avg{
-    stroke:rgba(30,55,145,1);
-  }
-
-  #spdtst line.avg.inneravg{
-    stroke-width:2px;
-  }
-
-  #spdtst text.speed_live{ font-size:40px; font-weight:bold; }
-  #spdtst text.speed_type{ font-size:12px; font-weight:bold; text-transform: capitalize; }
-  #spdtst text.speed_speed{ font-size:12px; font-weight:bold; }
-
-  @-webkit-keyframes BLINK {
-    0%, 100%   { opacity: 0; }
-    50% { opacity: 1; }
-  }
-  @-moz-keyframes BLINK {
-    0%, 100%   { opacity: 0; }
-    50% { opacity: 1; }
-  }
-  @-o-keyframes BLINK {
-    0%, 100%   { opacity: 0; }
-    50% { opacity: 1; }
-  }
-  @keyframes BLINK {
-    0%, 100%   { opacity: 0; }
-    50% { opacity: 1; }
-  }
-
-  #spdtst text.speed_live.waiting {
-    -webkit-animation: BLINK 1s infinite; /* Safari 4+ */
-    -moz-animation:    BLINK 1s infinite; /* Fx 5+ */
-    -o-animation:      BLINK 1s infinite; /* Opera 12+ */
-    animation:         BLINK 1s infinite; /* IE 10+, Fx 29+ */
-  }
-
-  #spdtst .live-test path{
-    stroke:rgba(230,0,50,1);
-    fill:rgba(230,0,50,0.5);
-  }
-
-  #spdtst .avg-text{
-    float:none;
-    width:auto;
-    max-width:300px;
-    border-top:1px solid rgb(30,55,145);
-    border-right:1px solid rgb(30,55,145);
-    padding:5px;
-    font-size:12px;
-    margin:-5px 0 0 0;
-  }
-
-  @media (max-width: 767px) {
-    #spdtst .avg-text span.visible-xs {
-      display: inline!important;
-    }
-  }
-
-  #spdtst .topscale{
-    opacity: 0.5;
-  }
-
-  .speed-ex-row{
-    padding-top:20px;
-  }
-
-  .speed-ex-row p{
-    max-width:300px;
-  }
-
-</style>
-<body>
-
-<section id="spdtst">
-  <div class="container">
-    <div class="row">
-      <div class="col col-xs-12 col-sm-4 col-lg-4">
-        <h3>Messen Sie Ihre Internetgeschwindikgeit</h3>
-        <p>
-          und sehen Sie, wie diese im Vergleich mit anderen Berliner Nutzer*innen ist. Zugleich werden Ihre Daten zu Forschungszwecken verwendet, um ein genaueres Bild des Internetverkehrs zu erhalten. Die Geschwindigkeit variiert im Tagesverlauf, d.h. ein genaueres Bild ergibt sich, wenn Sie zu unterschiedlichen Zeiten messen. 
-        </p>
-        <p class="small">
-          Für den Test werden anonymisierte Daten zu Forschungszwecken an das <a href="http://www.measurementlab.net/">Measurement Lab</a> gesendet, dort ausgewertet und als Open Data bereitgestellt. Weitere Informationen zu den AGB und zum Datenschutz <a href="https://www.measurementlab.net/privacy/">hier</a>.<br />
-        </p>
-        <p class="small">
-          Mit Klick auf „Test starten“ beginnen Sie die Kommunikation mit dem externen Server und stimmen der Weiterverwendung Ihrer Messdaten zu.
-        </p>
-        <a id="spdtst-start"><span class="image image-speed"></span>Test starten</a>
-      </div>
-      <div class="col col-xs-12 col-sm-8 col-lg-8">
-        <div class="row">
-          <div class="col col-xs-12 col-sm-6 col-lg-6" id="upload">
-          </div>
-          <div class="col col-xs-12 col-sm-6 col-lg-6" id="download">
-          </div>
-        </div>
-        <div class="row speed-ex-row">
-          <div class="col col-xs-12 col-sm-6 col-lg-6">
-            <p class="small"><span class="image image-speedex"></span> Der blaue Bereich zeigt den Anteil (%) der Nutzer*innen die eine bestimmte maximal Geschwindigkeit erreicht haben.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<script type="text/javascript" src="http://www.breitband-berlin.de/js/min/breitband-min.js"></script>
-<script type="text/javascript" src="./lib/NDTPlugin-min.js"></script>
-<script>
-
+/*global d3:false,console:false,debouncer:false,NDTPlugin:false */
+/*jshint unused:false*/
 function speedTest(){
 
   var svgs = {}, 
@@ -334,8 +98,8 @@ function speedTest(){
 
     });
     
-    d3.json('data.json', function (err, data){
-      if(err) console.log(err);
+    d3.json('./data/data.json', function (err, data){
+      if(err){console.log(err);}
 
       //the data is reduced to 360 items, 360 equals max-speed for type
       types.forEach(function(d,i){
@@ -485,7 +249,7 @@ function speedTest(){
 
           });
 
-          ndt = new NDTPlugin('./lib');
+          ndt = new NDTPlugin('./js');
 
           if(ndt.check()){
             ndt.getServer(
@@ -499,7 +263,7 @@ function speedTest(){
               }
             );
           }else{
-            console.log('sorry your browser does not support this')
+            console.log('sorry your browser does not support this');
           }
         }
       });
@@ -569,11 +333,3 @@ function speedTest(){
 
   return speed;
 }
-
-var speed_test = speedTest();
-speed_test.init();
-
-
-</script>
-</body>
-</html>
