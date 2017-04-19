@@ -298,7 +298,7 @@ function speedTest(){
     if(status.error.match(/completed/)){
       clearInterval(interval);
       state = false;
-      d3.select('#spdtst-start').html('<span class="image image-speed"></span>Erneut testen!').classed('active',false);
+      d3.select('#spdtst-start').html('<span class="image image-speed-red"></span>Erneut testen!').classed('active',false);
     }
   };
 
