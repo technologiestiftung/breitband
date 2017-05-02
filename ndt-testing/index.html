@@ -229,6 +229,7 @@
         </div>
       </div>
     </div>
+    <svg id="tes" width="500" height="500"></svg>
   </div>
 </section>
 
@@ -572,6 +573,39 @@ function speedTest(){
 
 var speed_test = speedTest();
 speed_test.init();
+
+var svg = d3.select('#test');
+
+var g = svg.append('g').attr('transform','translate(250,250)');
+
+g.append('circle')
+  .attr('cx',0)
+  .attr('cy',0)
+  .attr('r',100);
+
+var donut = d3.svg.arc()
+      .innerRadius(90)
+      .outerRadius(110);
+
+var arc = g.append('path').datum({newEndAngle:0,newStartAngle:Math.PI/2,startAngle:0,endAngle:0}).attr('d', donut);
+
+arc.datum(function(dd){
+  dd.newStartAngle = aStart;
+  dd.newEndAngle = testScale[d](spd);
+  return dd;
+}).transition().duration(100).attrTween("d", arcTween());
+
+function arcTween() {
+  return function(d) {
+    var interpolateStart = d3.interpolate(d.startAngle, d.newStartAngle);
+    var interpolateEnd = d3.interpolate(d.endAngle, d.newEndAngle);
+    return function(t) {
+      d.endAngle = interpolateEnd(t);
+      d.startAngle = interpolateStart(t);
+      return donut(d);
+    };
+  };
+}
 
 
 </script>
