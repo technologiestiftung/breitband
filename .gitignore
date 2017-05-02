@@ -27,3 +27,4 @@ visualization/fonts/TSB.svg
 
 *.codekit
 data/TÜV-Breitbandmessungen/all.csv
+sftp-config.json
