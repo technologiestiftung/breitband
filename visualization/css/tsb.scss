@@ -1881,10 +1881,6 @@ ul.legend span span{
 
 /*-------- SpeedTest --------*/
 
-#spdtst{
-  overflow:hidden;
-}
-
 #spdtst>a{
   display:block;
   padding-top:100px;
@@ -1892,12 +1888,12 @@ ul.legend span span{
 
 #spdtst-start{
   border-radius: 3px;
-  border:2px solid rgb(230,0,50);
-  color:rgb(230,0,50);
+  border:2px solid rgb(30,55,145);
+  color:rgb(30,55,145);
   padding:0 10px;
   font-weight:bold;
   font-size:14px;
-  background-color:rgba(230,0,50,0.1);
+  background-color:rgba(30,55,145,0.1);
   text-align: center;
   width:150px;
   display: block;
@@ -1907,17 +1903,13 @@ ul.legend span span{
   font-weight: normal;
 }
 
-.image.image-speed, .image.image-speed-red{
+.image.image-speed{
   width: 23px;
   height: 25px;
   background-size: 23px 25px;
   background-image: url(../images/speed-icn.png);
   display: inline-block;
   margin:2px 5px -7px 0;
-}
-
-.image.image-speed-red{
-  background-image: url(../images/speed-icn-red.png);
 }
 
 .image.image-speedex{
@@ -1934,34 +1926,60 @@ ul.legend span span{
   cursor: pointer;
   color:#fff;
   text-decoration: none;
-  background-color:rgba(230,0,50,1); 
+  background-color:rgba(30,55,145,1); 
 }
 
-#spdtst-start:hover .image.image-speed,
-#spdtst-start:hover .image.image-speed-red{
+#spdtst-start:hover .image.image-speed{
   background-image: url(../images/speed-icn-white.png);
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* high res */
 }
 
 #spdtst-start.active, #spdtst-start.active:hover{
   cursor: normal;
-  border-color:rgba(230,0,50,0.5);
-  background-color:rgba(230,0,50,0.1);
-  color:rgba(230,0,50,0.7);
+  border-color:rgba(30,55,145,0.5);
+  background-color:rgba(30,55,145,0.1);
+  color:rgba(30,55,145,0.7);
+}
+
+#upload_graph{
+  margin-top:10px;
+  margin-bottom:30px;
+}
+
+#upload_indicator{
+  margin-top:10px;
 }
 
 #spdtst svg{
   width:100%;
   height:auto;
   margin: 0 auto;
-  max-width:300px;
 }
 
-#spdtst #upload, #spdtst #download{
-  text-align:center;
+#spdtst .indicator svg{
+  margin-top:60px;
+  max-width:150px;
+  float:left;
+}
+
+#spdtst .graph svg{
+  max-width:480px;
+}
+
+#spdtst text{
+  font-size:85%;
+}
+
+#spdtst .axis line,
+#spdtst .axis path{
+  stroke-width:1px;
+  stroke:#000;
+  fill:transparent;
+}
+
+#spdtst circle.bg,
+#spdtst line.bglines{
+  stroke:rgba(0,0,0,0.2);
+  fill:transparent;
 }
 
 #spdtst path.trend{
@@ -1969,113 +1987,61 @@ ul.legend span span{
   stroke:rgb(30,55,145);
 }
 
-#spdtst circle.bg{
-  fill:rgba(0,0,0,0.1);
-}
-
-#spdtst circle.bg-circle{
-  fill:transparent;
-  stroke:rgba(0,0,0,0.3);
-  stroke-dasharray:1,4;
-}
-
-#spdtst circle.overlay{
-  fill:#fff;
-  stroke:rgb(30,55,145);
-}
-
-#spdtst line.startend{
-  stroke:#000;
-}
-
-#spdtst path.top-overlay{
-  fill:#fff;
-}
-
-#spdtst text.speed-label{
-  font-size:12px;
-}
-
-#spdtst line.ticks{
-  stroke:rgba(0,0,0,0.5);
-}
-
-#spdtst line.inner-ticks{
-  stroke:rgba(0,0,0,0.2);
-}
-
 #spdtst circle.avg{
   fill:rgba(30,55,145,1);
 }
 
-#spdtst line.avg{
+#spdtst path.avg{
+  fill:transparent;
   stroke:rgba(30,55,145,1);
 }
 
-#spdtst line.avg.inneravg{
-  stroke-width:2px;
+#spdtst line.coverup{
+  stroke-width:3px;
+  stroke:#fff;
 }
+
+ path.progress{
+  stroke:#777;
+  stroke-width:7;
+  stroke-linejoin:round;
+  fill:#777;
+ }
 
 #spdtst text.speed_live{ font-size:40px; font-weight:bold; }
 #spdtst text.speed_type{ font-size:12px; font-weight:bold; text-transform: capitalize; }
 #spdtst text.speed_speed{ font-size:12px; font-weight:bold; }
 
-@-webkit-keyframes BLINK {
-  0%, 100%   { opacity: 0; }
-  50% { opacity: 1; }
-}
-@-moz-keyframes BLINK {
-  0%, 100%   { opacity: 0; }
-  50% { opacity: 1; }
-}
-@-o-keyframes BLINK {
-  0%, 100%   { opacity: 0; }
-  50% { opacity: 1; }
-}
-@keyframes BLINK {
-  0%, 100%   { opacity: 0; }
-  50% { opacity: 1; }
+#spdtst circle.userspeed{
+  fill:rgba(230,0,50,1);
+  stroke:rgba(30,55,145,1);
 }
 
-#spdtst text.speed_live.waiting {
-  -webkit-animation: BLINK 1s infinite; /* Safari 4+ */
-  -moz-animation:    BLINK 1s infinite; /* Fx 5+ */
-  -o-animation:      BLINK 1s infinite; /* Opera 12+ */
-  animation:         BLINK 1s infinite; /* IE 10+, Fx 29+ */
+#spdtst circle.userspeed.ani{
+  stroke:transparent;
 }
 
-#spdtst .live-test path{
-  stroke:rgba(230,0,50,1);
-  fill:rgba(230,0,50,0.5);
-}
-
-#spdtst .avg-text{
-  float:none;
-  width:auto;
-  max-width:300px;
-  border-top:1px solid rgb(30,55,145);
-  border-right:1px solid rgb(30,55,145);
-  padding:5px;
-  font-size:12px;
-  margin:-5px auto 0 auto;
-  text-align:left;
-}
-
-@media (max-width: 767px) {
-  #spdtst .avg-text span.visible-xs {
-    display: inline!important;
+@media (max-width: 1200px) {
+  #spdtst .indicator svg{
+    margin-top:70px;
   }
 }
 
-#spdtst .topscale{
-  opacity: 0.5;
-}
+@media (max-width: 767px) {
+  #spdtst .graph, #spdtst .indicator{
+    max-width:400px;
+    margin:0 auto;
+    text-align: center;
+    float:none;
+  }
 
-.speed-ex-row{
-  padding-top:20px;
-}
+  #spdtst .indicator svg{
+    float:none;
+    margin-top:10px;
+    margin-bottom:20px;
+  }
 
-.speed-ex-row p{
-  max-width:300px;
-  margin:0 auto;
+  #spdtst-start{
+    margin: 0 auto 30px auto;
+  }
 }

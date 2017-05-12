@@ -3,9 +3,10 @@ var csv = require('ya-csv');
 var result = {}, sum = [];
 
 var readCount = 0;
-var max = 30; //up:6,down:30
-var values = 360;
-var files = ['results-20170326-195055-download-20160101.csv'];//['results-20170326-200456-upload-20160101-p1.csv','results-20170327-022700-upload-20160101-p2.csv'];
+var max = 6; //up:6,down:30
+var values = 50;
+//var files = ['results-20170326-195055-download-20160101.csv'];
+var files = ['results-20170326-200456-upload-20160101-p1.csv','results-20170327-022700-upload-20160101-p2.csv'];
 
 function setupReader(file){
 
@@ -18,7 +19,7 @@ function setupReader(file){
       var val = parseFloat(data[0]);
       if(val !== 0 && !isNaN(val)){
         if(val > max){val = max;}
-        var r_val = Math.round((val / max * 360));
+        var r_val = Math.round((val / max * values));
         if(!(r_val in result)){
           result[r_val] = 0;
         }
@@ -45,7 +46,7 @@ function setupReader(file){
             sums += result[key];
           }
         }
-        sum.push(sums);
+        sum.push([sums,i]);
       }
 
       console.log(JSON.stringify(sum));
