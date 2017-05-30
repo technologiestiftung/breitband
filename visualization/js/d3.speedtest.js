@@ -41,6 +41,7 @@ function speedTest(){
       height : 150,
       width : 480
     },
+    errMsg = false,
     graphHeight = 110,
     graphWidth = 400,
     scales = {},
@@ -222,10 +223,28 @@ function speedTest(){
                 interval = setInterval(speed.reportStatus, 100);
               },
               function(error){
+                if(error){
+                  alert('Leider konnte der Test nicht erfolgreich durchgeführt werden. Dies kann möglicherweise an einer Firewall oder ähnlichen Sicherheitsvorkehrungen liegen.');
+                  d3.selectAll('#spdtst path.progress').datum(function(dd){
+                    dd.opacity = 0;
+                    dd.newEndAngle = Math.PI*2;
+                    return dd;
+                  });
+                }
                 console.log('error', error);
               }
             );
           }else{
+            d3.select('#spdtst-start').remove();
+            if(!errMsg){
+              d3.select('#spdtst>.container>.row>.col').append('p').attr('class','spd-note').text('Leider unterstütz Ihr Browser nicht die Mindestanforderungen.');
+              errMsg = true;
+            }
+            d3.selectAll('#spdtst path.progress').datum(function(dd){
+              dd.opacity = 0;
+              dd.newEndAngle = Math.PI*2;
+              return dd;
+            });
             console.log('sorry your browser does not support this');
           }
         }
@@ -277,43 +296,57 @@ function speedTest(){
   speed.reportStatus = function () {
     var status = ndt.getStatus();
 
-    types.forEach(function(d){
-      var spd = parseFloat(status[short[d]]);
-      if(spd === 'NaN' ||isNaN(spd)){spd = 0;}
-      speeds[d] = spd;
-      var txt = (spd<10)?spd.toFixed(2):(spd>99)?Math.round(spd):spd.toFixed(1);
-      svgs.indicator[d].select('.speed_live').text(txt);
-      if(spd > 0){
-        d3.select('#'+d+'_progress').datum(function(dd){
-          dd.newEndAngle += Math.PI/100;
-          return dd;
-        });
-        if(d==='download'){
-          d3.select('#upload_progress').datum(function(dd){
-            dd.newEndAngle = Math.PI*2;
-            if(dd.opacity>0){
-              speed.setPoint('upload');
-            }
-            dd.opacity = 0;
-            return dd;
-          });
-        }
+    if(status.error.indexOf('Test failed')>=0){
+      d3.select('#spdtst-start').remove();
+      if(!errMsg){
+        d3.select('#spdtst>.container>.row>.col').append('p').attr('class','spd-note').text('Leider unterstütz Ihr Browser nicht die Mindestanforderungen oder eine Firewall verhindert das Durchführen des Tests.');
+        errMsg = true;
       }
-    });
-
-    if(status.error.match(/completed/)){
-      clearInterval(interval);
-      d3.select('#download_progress').datum(function(dd){
-        dd.newEndAngle = Math.PI*2;
+      d3.selectAll('#spdtst path.progress').datum(function(dd){
         dd.opacity = 0;
+        dd.newEndAngle = Math.PI*2;
         return dd;
       });
+      clearInterval(interval);
+    }else{
+      types.forEach(function(d){
+        var spd = parseFloat(status[short[d]]);
+        if(spd === 'NaN' ||isNaN(spd)){spd = 0;}
+        speeds[d] = spd;
+        var txt = (spd<10)?spd.toFixed(2):(spd>99)?Math.round(spd):spd.toFixed(1);
+        svgs.indicator[d].select('.speed_live').text(txt);
+        if(spd > 0){
+          d3.select('#'+d+'_progress').datum(function(dd){
+            dd.newEndAngle += Math.PI/100;
+            return dd;
+          });
+          if(d==='download'){
+            d3.select('#upload_progress').datum(function(dd){
+              dd.newEndAngle = Math.PI*2;
+              if(dd.opacity>0){
+                speed.setPoint('upload');
+              }
+              dd.opacity = 0;
+              return dd;
+            });
+          }
+        }
+      });
 
-      setTimeout(function(){
-        state = false;
-        speed.setPoint('download');
-        d3.select('#spdtst-start').html('<span class="image image-speed"></span>Erneut testen!').classed('active',false);
-      }, 2000);
+      if(status.error.match(/completed/)){
+        clearInterval(interval);
+        d3.select('#download_progress').datum(function(dd){
+          dd.newEndAngle = Math.PI*2;
+          dd.opacity = 0;
+          return dd;
+        });
+
+        setTimeout(function(){
+          state = false;
+          speed.setPoint('download');
+          d3.select('#spdtst-start').html('<span class="image image-speed"></span>Erneut testen!').classed('active',false);
+        }, 2000);
+      }
     }
   };
 

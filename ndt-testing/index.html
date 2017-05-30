@@ -181,6 +181,11 @@
     }
   }
 
+  .spd-note{
+    font-weight:bold;
+    color:#e60032;
+  }
+
 </style>
 <body>
 
@@ -213,6 +218,8 @@
     </div>
   </div>
 </section>
+<script type="text/javascript">
+</script>
 <script type="text/javascript" src="http://www.breitband-berlin.de/js/min/breitband-min.js"></script>
 <script type="text/javascript" src="./lib/NDTPlugin-min.js"></script>
 <script>
@@ -258,6 +265,7 @@ function speedTest(){
       height : 150,
       width : 480
     },
+    errMsg = false,
     graphHeight = 110,
     graphWidth = 400,
     scales = {},
@@ -439,10 +447,28 @@ function speedTest(){
                 interval = setInterval(speed.reportStatus, 100);
               },
               function(error){
+                if(error){
+                  alert('Leider konnte der Test nicht erfolgreich durchgeführt werden. Dies kann möglicherweise an einer Firewall oder ähnlichen Sicherheitsvorkehrungen liegen.');
+                  d3.selectAll('#spdtst path.progress').datum(function(dd){
+                    dd.opacity = 0;
+                    dd.newEndAngle = Math.PI*2;
+                    return dd;
+                  });
+                }
                 console.log('error', error);
               }
             );
           }else{
+            d3.select('#spdtst-start').remove();
+            if(!errMsg){
+              d3.select('#spdtst>.container>.row>.col').append('p').attr('class','spd-note').text('Leider unterstütz Ihr Browser nicht die Mindestanforderungen.');
+              errMsg = true;
+            }
+            d3.selectAll('#spdtst path.progress').datum(function(dd){
+              dd.opacity = 0;
+              dd.newEndAngle = Math.PI*2;
+              return dd;
+            });
             console.log('sorry your browser does not support this')
           }
         }
@@ -493,6 +519,19 @@ function speedTest(){
 
   speed.reportStatus = function () {
     var status = ndt.getStatus();
+
+    if(status.error.indexOf('Test failed')>=0){
+      d3.select('#spdtst-start').remove();
+      if(!errMsg){
+        d3.select('#spdtst>.container>.row>.col').append('p').attr('class','spd-note').text('Leider unterstütz Ihr Browser nicht die Mindestanforderungen oder eine Firewall verhindert das Durchführen des Tests.');
+        errMsg = true;
+      }
+      d3.selectAll('#spdtst path.progress').datum(function(dd){
+        dd.opacity = 0;
+        dd.newEndAngle = Math.PI*2;
+        return dd;
+      });
+    }
 
     types.forEach(function(d){
       var spd = parseFloat(status[short[d]]);
